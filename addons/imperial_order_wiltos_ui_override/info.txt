@@ -1,0 +1,8 @@
+"AddonInfo"
+{
+    "name"              "Imperial wiltOS UI Override"
+    "version"           "1.0.1"
+    "up_date"           "21 July 2026"
+    "author_name"       "1mmortalon3"
+    "info"              "Custom Imperial interface using native wiltOS Sentinel progression."
+}

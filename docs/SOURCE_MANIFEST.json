@@ -1,0 +1,2267 @@
+[
+  {
+    "path": ".gitattributes",
+    "sha256": "55d87588230c386d75889b26b9caed732b232a424ad6b5a77e0b731ae6ac3080",
+    "bytes": 104
+  },
+  {
+    "path": ".gitignore",
+    "sha256": "51827708270dc145536f8355a01b69c147dc7d05619b8c36d5529456305160f0",
+    "bytes": 388
+  },
+  {
+    "path": "README.md",
+    "sha256": "41d6eb26e1ab8aef03d1a3f58e5dc1e61e8abdc7f30048aecf8709b8d031072d",
+    "bytes": 3532
+  },
+  {
+    "path": "addons/axel_admin/lua/autorun/sh_axel_admin.lua",
+    "sha256": "91bf5f3553947213b828192b757a864a8030d4ef33dd2ecf6b9ca56883c0aa60",
+    "bytes": 1594
+  },
+  {
+    "path": "addons/axel_admin/lua/axel/cl_appearance.lua",
+    "sha256": "6d05ea96c792932665a8ebecd340b6a52fc53b17a1e6e6f2453a5f138135a78e",
+    "bytes": 9742
+  },
+  {
+    "path": "addons/axel_admin/lua/axel/cl_menu.lua",
+    "sha256": "3631cef635a4797d2ff0fdc7418f5084dca71761be295f7439332cb145a5a26a",
+    "bytes": 52666
+  },
+  {
+    "path": "addons/axel_admin/lua/axel/cl_theme.lua",
+    "sha256": "15cbe89382585d6c38bdf2b9113edb9524964bfcbe7e835f48ecd954693bf00c",
+    "bytes": 15223
+  },
+  {
+    "path": "addons/axel_admin/lua/axel/sh_commands.lua",
+    "sha256": "39f46bb6cf9528875d76c7e221bd2d3f894631383f06a22b49304e412a8598ba",
+    "bytes": 21903
+  },
+  {
+    "path": "addons/axel_admin/lua/axel/sh_core.lua",
+    "sha256": "0701144dd9e561cd0e2bf79b4cb13cb9189b5d35ac75b6c0dce56e128d05e27d",
+    "bytes": 6459
+  },
+  {
+    "path": "addons/axel_admin/lua/axel/sh_extended.lua",
+    "sha256": "cbf36bd58e1c38c99a8d810655820669b3411e9043b1436e987fdc6edd2f9bb6",
+    "bytes": 10122
+  },
+  {
+    "path": "addons/axel_admin/lua/axel/sh_integrations.lua",
+    "sha256": "00fab6ede87c8077526968f81e952649ed77ca245a552125124aba34935a077b",
+    "bytes": 10463
+  },
+  {
+    "path": "addons/axel_admin/lua/axel/sh_themes.lua",
+    "sha256": "6780e6598ec435cc3a1cd9c74f0cefd3dbc89613ec2e8cb4d8275a50f955f898",
+    "bytes": 11318
+  },
+  {
+    "path": "addons/axel_admin/lua/axel/sv_bans.lua",
+    "sha256": "ac939e93091ad2ba490a2c3ba4e96409f386e486986e202f782680db448090ee",
+    "bytes": 5647
+  },
+  {
+    "path": "addons/axel_admin/lua/axel/sv_cami.lua",
+    "sha256": "194a163df98e3872909f577be5d03e2cf4c9b264f543bff1034c682122031f63",
+    "bytes": 12417
+  },
+  {
+    "path": "addons/axel_admin/lua/axel/sv_commands.lua",
+    "sha256": "aac21acd2d5717108b61d8296f4d7edc72b2cb97c7ebd4c6035325279fb997ae",
+    "bytes": 10691
+  },
+  {
+    "path": "addons/axel_admin/lua/axel/sv_mysql.lua",
+    "sha256": "86e551f80b6d9baa60934265dedf9f477cac44d0cdb96b12bc90e0cad75e75dd",
+    "bytes": 4520
+  },
+  {
+    "path": "addons/axel_admin/lua/axel/sv_net.lua",
+    "sha256": "b7dd126a4e0790ac2675fa27390fb44d5598fcf61ddad558d16648766274a4c1",
+    "bytes": 6701
+  },
+  {
+    "path": "addons/axel_admin/lua/axel/sv_ranks.lua",
+    "sha256": "f4ad16e0c9258c1ad3ffcdb798dde28532c39fcd57a8cff15eee0019c060a21c",
+    "bytes": 17272
+  },
+  {
+    "path": "addons/axel_admin/lua/axel/sv_storage.lua",
+    "sha256": "1e6ed4e6fb2d255e3da10e2e31f929f4268ebdb2aa431b70a0ce16d1b63e96f8",
+    "bytes": 20240
+  },
+  {
+    "path": "addons/axel_admin/lua/axel/sv_themes.lua",
+    "sha256": "b337e55a423790148e0e283d082b29e273fbca16c949136d062d93c113f748e5",
+    "bytes": 4718
+  },
+  {
+    "path": "addons/axel_admin/lua/axel/sv_upgrade.lua",
+    "sha256": "790750f04374fd9224ca7fc78a8cbb743321ae1259ffe9fd3a77aeff783267ed",
+    "bytes": 980
+  },
+  {
+    "path": "addons/imperial_order_branding/addon.json",
+    "sha256": "4c3d1ded7c2762767a5dfd29fd6fc602b47b1213ed240ed25f7d9aef6d870c46",
+    "bytes": 126
+  },
+  {
+    "path": "addons/imperial_order_branding/lua/autorun/imperial_order_branding.lua",
+    "sha256": "11f399e2afd22aed97a3a4691892f2fa8ed945c1eecb558d63ad5f07866500b4",
+    "bytes": 641
+  },
+  {
+    "path": "addons/imperial_order_branding/materials/imperial_order/imperial_order_logo.png",
+    "sha256": "d10a40d7e32d3095f6e2e167367d9fe7976a62bcfbfd334f13809844c805909c",
+    "bytes": 91322
+  },
+  {
+    "path": "addons/imperial_order_branding/materials/imperial_order_ui/imperial_order_crest.png",
+    "sha256": "d10a40d7e32d3095f6e2e167367d9fe7976a62bcfbfd334f13809844c805909c",
+    "bytes": 91322
+  },
+  {
+    "path": "addons/imperial_order_command_posts/README.txt",
+    "sha256": "b4be06af209c3025bcf62f7149304bcdff357d278d8caa759ea243d1bac4cc8d",
+    "bytes": 1766
+  },
+  {
+    "path": "addons/imperial_order_command_posts/addon.json",
+    "sha256": "538f9340a594a244000b7dd78854df6159aede3735dd6fa4ba514de456d6299b",
+    "bytes": 150
+  },
+  {
+    "path": "addons/imperial_order_command_posts/lua/autorun/imperial_order_command_posts.lua",
+    "sha256": "e11983cc8f9722aebc70ab765a2e66488527c45d92a5657e5fded21014c39c19",
+    "bytes": 5738
+  },
+  {
+    "path": "addons/imperial_order_command_posts/lua/autorun/server/sv_imperial_order_command_post_persistence.lua",
+    "sha256": "5df17b2d0d0ab5905b253108a47bda4f456637ef58c0d22e88b1e7a69a5f9ddc",
+    "bytes": 5417
+  },
+  {
+    "path": "addons/imperial_order_command_posts/lua/entities/imperial_order_command_post/cl_init.lua",
+    "sha256": "e0355b3659fe193874726e0631fa9fe0507966d475625526a928688277bdc0a4",
+    "bytes": 3435
+  },
+  {
+    "path": "addons/imperial_order_command_posts/lua/entities/imperial_order_command_post/init.lua",
+    "sha256": "524a14699de49315f6789e77be7c5f4597d8f95c065a56defbc022cd69d30fa9",
+    "bytes": 6368
+  },
+  {
+    "path": "addons/imperial_order_command_posts/lua/entities/imperial_order_command_post/shared.lua",
+    "sha256": "c5de42c00f972e8018fe493d5439db5f48cb33cf8c30127b6d622676c78bde19",
+    "bytes": 882
+  },
+  {
+    "path": "addons/imperial_order_command_posts/lua/weapons/gmod_tool/stools/imperial_order_command_post.lua",
+    "sha256": "a6fe8af59c660e19847eb16261b17d712e41f32770347b3682d4486552eae765",
+    "bytes": 3976
+  },
+  {
+    "path": "addons/imperial_order_comms_jammer/addon.json",
+    "sha256": "3cc77f4141a67798c69b2189b579540c371a8b23e0d73e48918c0747035350ec",
+    "bytes": 158
+  },
+  {
+    "path": "addons/imperial_order_comms_jammer/lua/autorun/00_imperial_order_jammer_map_binding.lua",
+    "sha256": "8dfd25b0d08458d610eb1a459718261b25cd91ad7d4a36972bff93447589066e",
+    "bytes": 864
+  },
+  {
+    "path": "addons/imperial_order_comms_jammer/lua/autorun/client/cl_comms_jammer.lua",
+    "sha256": "00e8790469459987f8d8c1ad6e9adec3d52a5d0906671aeb25355cf30a00f07f",
+    "bytes": 22300
+  },
+  {
+    "path": "addons/imperial_order_comms_jammer/lua/autorun/client/cl_imperial_order_chat_interference.lua",
+    "sha256": "7e38745726c1b5a3e91c69d0fea9bf9753037f389407b59ffd1e62f568c3b113",
+    "bytes": 2774
+  },
+  {
+    "path": "addons/imperial_order_comms_jammer/lua/autorun/server/sv_comms_jammer.lua",
+    "sha256": "c6cdddd0670cf205504bb0a6c3b94f44b5add310713f4f9698b39b913cd4246d",
+    "bytes": 13031
+  },
+  {
+    "path": "addons/imperial_order_comms_jammer/lua/autorun/server/sv_imperial_order_chat_interference.lua",
+    "sha256": "139732e91083f30ef4993dc5885d0687138c56ef6a58d1f67f10ecc091f6c6ac",
+    "bytes": 1503
+  },
+  {
+    "path": "addons/imperial_order_comms_jammer/lua/autorun/server/sv_imperial_order_jammer_failure_effects.lua",
+    "sha256": "ab155232fc109bcdddec3c266be25ac10c8e48ab9cc16aea8ecc86c3bd140db7",
+    "bytes": 6412
+  },
+  {
+    "path": "addons/imperial_order_comms_jammer/lua/autorun/server/sv_permaprops_integration.lua",
+    "sha256": "f457b65e150eaf72160c56a34b61ccf3ec4589cd563fabe9d5489302639d476d",
+    "bytes": 2676
+  },
+  {
+    "path": "addons/imperial_order_comms_jammer/lua/entities/comms_jammer/cl_init.lua",
+    "sha256": "87bad896443e67dba290530ea35653b866cc23354cb52202042dc6ddabecbbfb",
+    "bytes": 3264
+  },
+  {
+    "path": "addons/imperial_order_comms_jammer/lua/entities/comms_jammer/init.lua",
+    "sha256": "2a6c6013a910809fb7adfc6af71869641d246046b585b9521af02990b746418f",
+    "bytes": 4776
+  },
+  {
+    "path": "addons/imperial_order_comms_jammer/lua/entities/comms_jammer/shared.lua",
+    "sha256": "733a01d7650904ab29e7d4b48ee65e3dc6c8788e44d20fefa099dbb968822a9e",
+    "bytes": 469
+  },
+  {
+    "path": "addons/imperial_order_comms_jammer/lua/entities/comms_jammer_armored/cl_init.lua",
+    "sha256": "03f45132bfdc7340c6755120029702b8028c91e3682c8e527fd42a3d880c6fe8",
+    "bytes": 3438
+  },
+  {
+    "path": "addons/imperial_order_comms_jammer/lua/entities/comms_jammer_armored/init.lua",
+    "sha256": "b4a565b3752962919a80061a2aac36a1c7b4d0b8205fe5e6aa18974cf9afcc58",
+    "bytes": 4642
+  },
+  {
+    "path": "addons/imperial_order_comms_jammer/lua/entities/comms_jammer_armored/shared.lua",
+    "sha256": "ec29f068bb61b27206cfd41e0fb4b25af3a94fa9b49e4aef9246c7ad9fda4adf",
+    "bytes": 452
+  },
+  {
+    "path": "addons/imperial_order_comms_jammer/lua/weapons/gmod_tool/stools/comms_jammer.lua",
+    "sha256": "f2a47cb4dc5c7f24dca79f361a83978321525cfd5bdb442b9a31ee7d4d75765e",
+    "bytes": 5951
+  },
+  {
+    "path": "addons/imperial_order_recruitment_terminal/README_INSTALL.txt",
+    "sha256": "eee73fe01608d5d19d25d7837f6290054bf4616f5e909bcd5a23a35b38a6233c",
+    "bytes": 1848
+  },
+  {
+    "path": "addons/imperial_order_recruitment_terminal/addon.json",
+    "sha256": "a63ed8caaa12d1e3eba2e0005a847603640ca29d22d782e613425e7d8923d6cf",
+    "bytes": 189
+  },
+  {
+    "path": "addons/imperial_order_recruitment_terminal/lua/autorun/server/sv_imperial_order_recruitment_permaprops.lua",
+    "sha256": "afa1240c5ee4d05d9076668cdf1f2ee30e87fea7cf527368955c1772829f6754",
+    "bytes": 714
+  },
+  {
+    "path": "addons/imperial_order_recruitment_terminal/lua/entities/imperial_order_recruitment_terminal/cl_init.lua",
+    "sha256": "edb74cf0450b48eb9baf9a50182430890afb9e473f0d384239e1f4c2c19133a2",
+    "bytes": 68653
+  },
+  {
+    "path": "addons/imperial_order_recruitment_terminal/lua/entities/imperial_order_recruitment_terminal/init.lua",
+    "sha256": "3ad95b17520c9e5d142e28578cbdd762c046c8d8d043b864373fdb90423378dd",
+    "bytes": 37031
+  },
+  {
+    "path": "addons/imperial_order_recruitment_terminal/lua/entities/imperial_order_recruitment_terminal/shared.lua",
+    "sha256": "ed7d087ff701cbd81220702f8f970d9aedb39fa97e1746efc8be4ebddd868a5e",
+    "bytes": 822
+  },
+  {
+    "path": "addons/imperial_order_recruitment_terminal/materials/imperial_order/imperial_recruitment_logo.png",
+    "sha256": "d10a40d7e32d3095f6e2e167367d9fe7976a62bcfbfd334f13809844c805909c",
+    "bytes": 91322
+  },
+  {
+    "path": "addons/imperial_order_tactical_insertion/README.md",
+    "sha256": "6a7878edc4f374da5e39ec00ce6a0e53eaa4daefd4e458aa58e86aa056e8cdcb",
+    "bytes": 2959
+  },
+  {
+    "path": "addons/imperial_order_tactical_insertion/helix_plugin/imperial_order_tactical_insertion/items/sh_tactical_insertion.lua",
+    "sha256": "af7c419b23ff3497c081c55d16b6f9f41ed04bdf548f5bf141c1be2a63cc48f7",
+    "bytes": 1366
+  },
+  {
+    "path": "addons/imperial_order_tactical_insertion/helix_plugin/imperial_order_tactical_insertion/sh_plugin.lua",
+    "sha256": "2e28a3b90fa33b7d7f7cc52ce17d3e53b2d19ed208515d6ea41539f15a46cf4f",
+    "bytes": 204
+  },
+  {
+    "path": "addons/imperial_order_tactical_insertion/lua/autorun/imperial_order_tactical_insertion.lua",
+    "sha256": "188af6efd1e266c40c2aa3b4825f228b8ed32d851e26f25fcd9d10eef8e18fe6",
+    "bytes": 8710
+  },
+  {
+    "path": "addons/imperial_order_tactical_insertion/lua/entities/imperial_order_tactical_insertion/cl_init.lua",
+    "sha256": "8994db4ecca2aa144699387d642c32b2a6a9685ea26bc0b9a4db8b421d28393b",
+    "bytes": 1070
+  },
+  {
+    "path": "addons/imperial_order_tactical_insertion/lua/entities/imperial_order_tactical_insertion/init.lua",
+    "sha256": "7ace926e371aef6a323e4e1271dddfbaa3a73e50f11ed34e89c23b78b57ca90a",
+    "bytes": 1900
+  },
+  {
+    "path": "addons/imperial_order_tactical_insertion/lua/entities/imperial_order_tactical_insertion/shared.lua",
+    "sha256": "72b927555abd2f07fe57511e9ceda7f4694ac83a8941c846c99d09de2a9efddc",
+    "bytes": 241
+  },
+  {
+    "path": "addons/imperial_order_tactical_insertion/lua/weapons/weapon_imperial_order_tactical_insertion/cl_init.lua",
+    "sha256": "3cccf48cc150a281c7510844c5c5cdeb1211e85bfb6e901c79fc25f8b285a4f9",
+    "bytes": 22
+  },
+  {
+    "path": "addons/imperial_order_tactical_insertion/lua/weapons/weapon_imperial_order_tactical_insertion/init.lua",
+    "sha256": "a60952cfeefbf28c4f65644acf65119b3fb4f18708cda3f7d7a734f62068176e",
+    "bytes": 49
+  },
+  {
+    "path": "addons/imperial_order_tactical_insertion/lua/weapons/weapon_imperial_order_tactical_insertion/shared.lua",
+    "sha256": "cd39cdeb38b3f7a0b1cb840d38da958a896c2f1fcef1be0c87a61cd00aa28e75",
+    "bytes": 4024
+  },
+  {
+    "path": "addons/imperial_order_wiltos_compat/README.txt",
+    "sha256": "4d24080c4fc1717c5ca9050b9cff5944709fa829b29b6dd362c1e83513985e16",
+    "bytes": 159
+  },
+  {
+    "path": "addons/imperial_order_wiltos_compat/info.txt",
+    "sha256": "cdbe9af6b9a946effbee0b5c60ab5f729a2a205ee82af2822c376056aeaf309e",
+    "bytes": 183
+  },
+  {
+    "path": "addons/imperial_order_wiltos_compat/lua/autorun/000_imperial_order_wiltos_compat.lua",
+    "sha256": "2d618aa7209bf1e8cd47a9ffb8d64cc804bb101407dafd985e5a66078e9e8626",
+    "bytes": 1345
+  },
+  {
+    "path": "addons/imperial_order_wiltos_crafting_ui/README.txt",
+    "sha256": "880019119fa786bb7a21928e430022e542d370c0200d955a733d9520efba3a46",
+    "bytes": 1730
+  },
+  {
+    "path": "addons/imperial_order_wiltos_crafting_ui/info.txt",
+    "sha256": "fbb1bec62d15bd10f709fbbace428729f6033a38ed8a9605e1426b6a731135ff",
+    "bytes": 219
+  },
+  {
+    "path": "addons/imperial_order_wiltos_crafting_ui/lua/autorun/client/cl_imperial_order_wiltos_crafting_ui.lua",
+    "sha256": "77ada75151a3c495696ceb31a8af98c34058d036ad331d7b0a8303e994fd6983",
+    "bytes": 46531
+  },
+  {
+    "path": "addons/imperial_order_wiltos_ui_override/README.txt",
+    "sha256": "0d4e222abfd18c8d215e4e721b4b951113cd5ec99fa59d1b970d67ab18de0350",
+    "bytes": 3824
+  },
+  {
+    "path": "addons/imperial_order_wiltos_ui_override/info.txt",
+    "sha256": "d29e3340b584f1ba1f30eb538661876358c02723f4584b99388cfade191bd10e",
+    "bytes": 273
+  },
+  {
+    "path": "addons/imperial_order_wiltos_ui_override/lua/autorun/imperial_order_wiltos_admin_bridge.lua",
+    "sha256": "f3c9ef8e555a33229fb00adef59551a9e0946457acc6ccb1849a57f721d2d7b3",
+    "bytes": 7141
+  },
+  {
+    "path": "addons/imperial_order_wiltos_ui_override/lua/autorun/imperial_order_wiltos_ui_override.lua",
+    "sha256": "004c0cbfb3e774e393641044bd247a1f111ca09fa9016d055d9f7747b3ff44c6",
+    "bytes": 455
+  },
+  {
+    "path": "addons/imperial_order_wiltos_ui_override/lua/imperial_order_wiltos_ui/cl_adapter.lua",
+    "sha256": "73a6accff74beb0e0d0916e1655cac85a79ab2c460794cfbbce7ca74237c6240",
+    "bytes": 11891
+  },
+  {
+    "path": "addons/imperial_order_wiltos_ui_override/lua/imperial_order_wiltos_ui/cl_core.lua",
+    "sha256": "060118f88927ac0e841f3617e6e5013ec8cab6b26a0c8d629e621b34ce45109c",
+    "bytes": 7785
+  },
+  {
+    "path": "addons/imperial_order_wiltos_ui_override/lua/imperial_order_wiltos_ui/cl_hud.lua",
+    "sha256": "f1c1688dd029c184cce6c99210593b10a381f5b4d338b8017b012a325db350b6",
+    "bytes": 8610
+  },
+  {
+    "path": "addons/imperial_order_wiltos_ui_override/lua/imperial_order_wiltos_ui/cl_menu.lua",
+    "sha256": "c5053cc955102d20a6f6f40409ad0c68c3acb7f750801c9331ecc5cfb80320a8",
+    "bytes": 33181
+  },
+  {
+    "path": "cfg/server.example.cfg",
+    "sha256": "2c7fd03d4b91026f5e346cf434f88dbfa68da5a75719ed6e8376fb68f4c5006d",
+    "bytes": 211
+  },
+  {
+    "path": "docs/DEPENDENCIES.md",
+    "sha256": "ea2145f0f91a06716a76e1d2173a411de5e9c834a841b42a729d15fd1bd7a35b",
+    "bytes": 1850
+  },
+  {
+    "path": "gamemodes/helix/.editorconfig",
+    "sha256": "91e715535741cd9b908002556f968f709e00610d11ae9070c013efae1a15132d",
+    "bytes": 168
+  },
+  {
+    "path": "gamemodes/helix/.github/workflows/ci.yml",
+    "sha256": "206bb2b938c4470aea62e4dcf69f89e58ff7f8dfe0476c0f62659f5d91c1dbf0",
+    "bytes": 1621
+  },
+  {
+    "path": "gamemodes/helix/.gitignore",
+    "sha256": "ae7cf49b2c809cfe9cbab360dd178b7c8b6b922154d5841c0ec0ebd97804b965",
+    "bytes": 85
+  },
+  {
+    "path": "gamemodes/helix/.luacheckrc",
+    "sha256": "3c204de65ad0d927d6af0696ca88bb765bef8dd6efbda0f9f067e384f04a9fad",
+    "bytes": 80569
+  },
+  {
+    "path": "gamemodes/helix/LICENSE.txt",
+    "sha256": "e9512dacf0dbe290882d52f053869a549fc0f117b06a3c1f2c69499ccb2b7564",
+    "bytes": 1157
+  },
+  {
+    "path": "gamemodes/helix/README.md",
+    "sha256": "1232319f97992161d6168a58d870e15c7cddd65a1ef5ecfd956223fba6404c60",
+    "bytes": 3238
+  },
+  {
+    "path": "gamemodes/helix/config.ld",
+    "sha256": "4efbb00d54ba0a061b3fe45fd548afacae089804be39749eb8a34a3e58712c55",
+    "bytes": 2230
+  },
+  {
+    "path": "gamemodes/helix/entities/entities/ix_item.lua",
+    "sha256": "dd30c82b61ecae966c4e111cbfd8eb0795da025618e4e9fd463e2202bf43e0f8",
+    "bytes": 7832
+  },
+  {
+    "path": "gamemodes/helix/entities/entities/ix_money.lua",
+    "sha256": "9cb0224bfe29755947aff9737cc440f83aff38e64c9cf57a320b6b4c5627ef8d",
+    "bytes": 1525
+  },
+  {
+    "path": "gamemodes/helix/entities/entities/ix_shipment.lua",
+    "sha256": "06ff625bcbddec0f38fa00d0ea7d67df0f57c7e39c388a8dcc8d74d786cd01d2",
+    "bytes": 3154
+  },
+  {
+    "path": "gamemodes/helix/entities/weapons/ix_hands.lua",
+    "sha256": "f5acf33cd91c49c1c3fee14752b55bab161eed34e5ab124314c057b2db77ebbe",
+    "bytes": 13982
+  },
+  {
+    "path": "gamemodes/helix/gamemode/cl_init.lua",
+    "sha256": "ca988f58ddfa781cb38d051e924e9e570a1723c4cce222c9118d6c7ef7db0a98",
+    "bytes": 1325
+  },
+  {
+    "path": "gamemodes/helix/gamemode/config/sh_config.lua",
+    "sha256": "544a8faecc3dc0bcca4c913c5886a8958c5661935ef780f762c286d5f2c89eab",
+    "bytes": 8164
+  },
+  {
+    "path": "gamemodes/helix/gamemode/config/sh_options.lua",
+    "sha256": "99ad2433139f7852b2b7b13c52c65ac47d1f05aaf8d4e8a2639e23410cb9fef9",
+    "bytes": 1554
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/cl_skin.lua",
+    "sha256": "d324efacdf4ba728a374812992faa189e9a1eecb49d52a1cb7a25e6cb7ce9427",
+    "bytes": 17605
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_attribute.lua",
+    "sha256": "67207abf73e19a794cf0be3f7af509a902fe97854b5ae38c764c35fecf9de79e",
+    "bytes": 4164
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_bar.lua",
+    "sha256": "ec0b66ce8c36648892068c0f783f9972355c4b736b0a364d29c9e720df9c0dbe",
+    "bytes": 4237
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_business.lua",
+    "sha256": "83090845acdaf2897777a264c8111d4362b1d689da0d79bc6c949893a35d14dc",
+    "bytes": 12528
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_character.lua",
+    "sha256": "2fa0d777e37bb2aa2fe16ef82a51d9478adef168b3b5792c0b216b984f5de1f9",
+    "bytes": 13947
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_charcreate.lua",
+    "sha256": "023677cc6b56eaa73a39e40bcd5a2926b8ea899bc49801e2a4a166e7643773dd",
+    "bytes": 13028
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_charload.lua",
+    "sha256": "84c1727849ba6b0085b2c31413a180cf783b7cc81a5cc0dbfaf135cd6ad6d1e6",
+    "bytes": 12506
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_classes.lua",
+    "sha256": "3d7c76f829f856cb3c2151e56f9476d27abd62caebf614006fcc9496fe99a7d3",
+    "bytes": 3287
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_config.lua",
+    "sha256": "38514673f3b90ce897e1c9aac138180d9e5d463ba709b055582257d4f06ab110",
+    "bytes": 5049
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_credits.lua",
+    "sha256": "c108c40c031a4744da8df373998b8de18e8dba08f966effc795fa7dff111c482",
+    "bytes": 7047
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_deathscreen.lua",
+    "sha256": "dd28904e55efc9efbb239dbdbede9bb1f8bd916f3fb695162a387c180a5288a6",
+    "bytes": 1369
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_dev_icon.lua",
+    "sha256": "56d38de1e13cbffc2cecf45a9d02cab88ea5c87454dc26508386a1994984afbf",
+    "bytes": 8398
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_entitymenu.lua",
+    "sha256": "356a7ef6e833e42bad980a41ad668a6dbb7d68de00d3e7e41c4e01e3d193c88a",
+    "bytes": 5960
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_generic.lua",
+    "sha256": "b388fb5cd45c90bfaa8ef497700a527c4f15be7166db49d922818167477a7cf6",
+    "bytes": 23833
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_help.lua",
+    "sha256": "2aa8d86d81b1086df34d823ed3cdb172e13fb3f2efdd6944ce55ca0f0e97799d",
+    "bytes": 10067
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_information.lua",
+    "sha256": "1fcd70265baa94c4012abd06e853e7c92c2fd1c17d7cd991fa769d0f38ddb6e1",
+    "bytes": 7161
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_intro.lua",
+    "sha256": "0671bf75d72b0d63b26bf2ab7fc985a7ba58e509675e979f22b383aebe1e950b",
+    "bytes": 8384
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_inventory.lua",
+    "sha256": "052dfacefb0f3b6f5c703a64dde58fdcb8a89d32596206bbaca8b5d1cf965612",
+    "bytes": 19097
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_menu.lua",
+    "sha256": "85fd81aa7bd4b64f666827cf06bbafc2cf25ee67a21cd479ce5c74be9216c724",
+    "bytes": 12214
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_menubutton.lua",
+    "sha256": "7c643073773e80603bb53a29e356be6af62ce5cb4643eb5e219a961d2fde308c",
+    "bytes": 6921
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_modelpanel.lua",
+    "sha256": "ad13b79a878e256e3bec1d1e5d5c93da3fc99c488b8e1faa48459c79d33821a6",
+    "bytes": 2569
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_notice.lua",
+    "sha256": "cc17b297d791509c36a06c0e7ba492c182c02535db1b67f26cf82429a83f95bf",
+    "bytes": 6207
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_noticebar.lua",
+    "sha256": "282b1802afb1b9b92e48b647931afd29cbe5d44405bd80d954c254565bf9211e",
+    "bytes": 2069
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_overrides.lua",
+    "sha256": "3d71e71fc6bf0c1fb6dd3ee503528b2960f93c52bdd77c478fdcdc79ca6c2508",
+    "bytes": 5127
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_scoreboard.lua",
+    "sha256": "7c3771a0b95f525ebd6e48c08d102788aded5fcb40767f779b75db29c28b9d8c",
+    "bytes": 8046
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_settings.lua",
+    "sha256": "ba2581ab922c4323ee942f463607f562f7af058b60096678e4e455ae673fe03c",
+    "bytes": 17205
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_shipment.lua",
+    "sha256": "5fcd14a4a793aa51f45179c91e35b6ad5d9a7d3bc3eac0425af0d68e6c6d2ecf",
+    "bytes": 2629
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_spawnicon.lua",
+    "sha256": "f040656f6863f3997f9fe109dcd63caa01110f8f1eb824db806929b77bd41db1",
+    "bytes": 1827
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_storage.lua",
+    "sha256": "dfa5354a1664368a8e0fc18bb42bcf124dc03e72146398d00c30d906c77396eb",
+    "bytes": 5062
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_subpanel.lua",
+    "sha256": "fb3d743717b56ca194c11f51a7c2fae3f67e038ab27315be656a5dab6b1682f9",
+    "bytes": 6488
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/derma/cl_tooltip.lua",
+    "sha256": "564713d3e89d20bdc65811ebe5628fe30c3a3793044ecc65c55a5ea6f66976f0",
+    "bytes": 16333
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/hooks/cl_hooks.lua",
+    "sha256": "eff27dd1c6bc7157dfc8d8cdfa2a621b3f2bee407c568c410ab512bb96850574",
+    "bytes": 23886
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/hooks/sh_hooks.lua",
+    "sha256": "d86c54a5b7d7665223baf80dc28af12f5b8b81eae4423dcfcfcdef1575eaa84c",
+    "bytes": 16522
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/hooks/sv_hooks.lua",
+    "sha256": "efdebbe024ea77bedfbbaead184c1dd3f53c5c594329261985c5cc7a10bc5393",
+    "bytes": 23041
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/cl_bar.lua",
+    "sha256": "68852cb53c02a6aebadebf13ca80a092d43d4413d1f13e5cecb188eb151a1839",
+    "bytes": 3048
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/cl_hud.lua",
+    "sha256": "d11c8c17eb8695f60f66d854c1fa9e7867c5d2b7c50d4c1a08fd4f8d44eab0bf",
+    "bytes": 2393
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/cl_markup.lua",
+    "sha256": "cd56c781dfd7f50218208edca62df18d24596d64434583a4620f97a529a5a48a",
+    "bytes": 13187
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/cl_networking.lua",
+    "sha256": "e200c1b53fb5bff685542aa8e4aacf942756359412a97eb65c57137b6648b74e",
+    "bytes": 1132
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sh_animation.lua",
+    "sha256": "75e5c66ae3bdc0d4bf796228624ed8c153ab5b77f1ec4412f44f1e1b6e6713e6",
+    "bytes": 3720
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sh_anims.lua",
+    "sha256": "38fb9c5606964600668bc48eff45c57baaa81ef600bc373b45038d6e717aa90e",
+    "bytes": 18375
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sh_attribs.lua",
+    "sha256": "37bf1118259563f4d7d6aac45f4de38176fed5fb477181538f5593e35ed01e83",
+    "bytes": 5413
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sh_business.lua",
+    "sha256": "d989cc8c08f4d982cca0695a9767cb287132c72f9436a66ed607511cf125b8d0",
+    "bytes": 3265
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sh_character.lua",
+    "sha256": "80e79b86c8e8e303007efb2110b19c58429447236c4f6b0734fe6ad4a8ba357f",
+    "bytes": 35941
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sh_chatbox.lua",
+    "sha256": "90dd6e8ce026e137616262f5a270267f63f0c6a0a79519490811018524c4750d",
+    "bytes": 23937
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sh_class.lua",
+    "sha256": "6915834d44ccf502cf76f2f60dfceb42ca1c9f8d5498f7e950bdaaff2bf7c721",
+    "bytes": 6430
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sh_command.lua",
+    "sha256": "88a1706585e9f256ebdc46d2e1701a4ee0a30a8299926a3e30355ee3abf05daa",
+    "bytes": 22436
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sh_currency.lua",
+    "sha256": "2e25e6413cf49d16b1050468c7dae26303600864b5af100f8a7743b6f998ca4f",
+    "bytes": 2979
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sh_date.lua",
+    "sha256": "ff14b156abe9e7e764a1b09700f2cbfc975dbc9d57bdc346b07be6230120289f",
+    "bytes": 4856
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sh_faction.lua",
+    "sha256": "055da5aaed6e57dafe29ebb968452d3b1d46b7d194fa130b98e80bee02f0b78d",
+    "bytes": 3628
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sh_flag.lua",
+    "sha256": "9433a0d25de33b6870e2240141d76b2a769a0fd32fac5cd40c487d2a8fdaaf96",
+    "bytes": 6073
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sh_inventory.lua",
+    "sha256": "a8435ffe1d499621c9c2b7b8ed91d8b51ec7435299a1f5d854bb7e61519fc315",
+    "bytes": 4763
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sh_item.lua",
+    "sha256": "fb2825991141c094bb912f450f2dbc5d008c3b14dc8b136a1362dfdf9a2fdb2d",
+    "bytes": 21389
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sh_language.lua",
+    "sha256": "8b353d3893916e9908c4b30922816a06a468fedf2a82d80f37ed2e7a52022958",
+    "bytes": 3515
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sh_log.lua",
+    "sha256": "97732e6d67cc7743a1598f65581805a340d32ca979b73bb372f22f3b9a53d974",
+    "bytes": 5660
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sh_menu.lua",
+    "sha256": "eccde2d5c35d98f49247012fbbc412ad462107fd8b5bd0bfc5cc2ab06006e63a",
+    "bytes": 3069
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sh_notice.lua",
+    "sha256": "fe7d721828ca9c87d333349b2bf9b53c726b0cbfeee7c1ce276b36686ffc87ae",
+    "bytes": 4483
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sh_option.lua",
+    "sha256": "fc2c90fcc19ae5a3fa077e09e306ba09f9dbcc2918fe383890b69d775e7ff307",
+    "bytes": 12777
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sh_player.lua",
+    "sha256": "d0c9b8d74a9de8c2a23f5ea590b675b3d772b04c7ef73b43205393b35998585e",
+    "bytes": 2985
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sh_plugin.lua",
+    "sha256": "08b06604da70f10aa3a3bd0d4f88d030fc6630bda90d38352115beeebe244b49",
+    "bytes": 11013
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sh_storage.lua",
+    "sha256": "386d9c585bcccf40b36c6c4c7939d5d02d7b3696c84ab5e4f461026b2e190ce0",
+    "bytes": 13605
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sv_database.lua",
+    "sha256": "2b43e7ce857ae2147e17f96115b00c1c4cdadaf33268a0be3032dd0459f35172",
+    "bytes": 10408
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sv_networking.lua",
+    "sha256": "f7fd78e65149c48bbef67a20b090c57aeeb2d24f7c6090d3b33e0018b2948dcd",
+    "bytes": 5398
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/sv_player.lua",
+    "sha256": "13a97f36d4a570d00fbeab87ade302af4ed0602f5de492740778492dd905d773",
+    "bytes": 3314
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/thirdparty/cl_ikon.lua",
+    "sha256": "e8f101eaa21d4ced5f0262e605f67de2fba38aa3a77e8b6c4d7d07accac6aae4",
+    "bytes": 9262
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/thirdparty/data/sh_utf8_casemap.lua",
+    "sha256": "18244186ffca99d25e01a61175084139b5dbfffd982a9e6d362bd35b4189f014",
+    "bytes": 31619
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/thirdparty/sh_cami.lua",
+    "sha256": "1a86ad2cfd0cef9e7bca09d715f1b5ab4b74c41fbf1540550bcf36aceda83bc6",
+    "bytes": 15287
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/thirdparty/sh_date.lua",
+    "sha256": "21d483efdceff2d2f48364931d77774810ac8afc28e48a15072ff17c41a25eee",
+    "bytes": 33703
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/thirdparty/sh_middleclass.lua",
+    "sha256": "67a530f778402332a2a16a55198887748a9e3ebc8ecad82256bf365ae2df96d2",
+    "bytes": 5953
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/thirdparty/sh_pon.lua",
+    "sha256": "7d02678e6bc6f795cfd7e5ec6d1335edea98f61147697d2b1f9f965935f6c304",
+    "bytes": 10294
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/thirdparty/sh_tween.lua",
+    "sha256": "508d93dc3755f6471e6d1cd413e795c6de892913409aa8f4b4e3554f8115bcd8",
+    "bytes": 12501
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/thirdparty/sh_utf8.lua",
+    "sha256": "9940ca561fc246ff23ad83edf3c4813e599e5ccf41035f081cc4e54d24be0a44",
+    "bytes": 10196
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/thirdparty/sh_yaml.lua",
+    "sha256": "b755d187d44b5adc11557daba8fae12a71efebed22cfcf7f3050dd81b1d8cd55",
+    "bytes": 15993
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/libs/thirdparty/sv_mysql.lua",
+    "sha256": "67ed2f5ec1eda67a6408ca6ba097a17c3a25400b1dcddc29f88c0e8f3f8dff78",
+    "bytes": 17300
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/meta/sh_character.lua",
+    "sha256": "ef9a38e758bdb68dfd337daef26a5e340c2e253143eca2ba087efa61fef8d28d",
+    "bytes": 10681
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/meta/sh_entity.lua",
+    "sha256": "c01f415a8e839189d4ca0ae4534c7aedef39b7346a272e97e3394224db7d4dd6",
+    "bytes": 5449
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/meta/sh_inventory.lua",
+    "sha256": "0943ae5e5bd3cb2536313b73eed637f27500147e2f8d9598412bb68b862ca0ae",
+    "bytes": 27348
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/meta/sh_item.lua",
+    "sha256": "207948a171b9209814b030b2c3e6e96caaffe8658c37f154fa3c8a6a53665a9d",
+    "bytes": 23787
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/meta/sh_player.lua",
+    "sha256": "a04d1717a25107cbef96f99232b70761e18aa2c46d056d3357e076a7b56c50c9",
+    "bytes": 18607
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/meta/sh_tool.lua",
+    "sha256": "2bf77d3fc1d704e7cb79db6d27759f7d962928f5df2682d9f17f48b165058806",
+    "bytes": 2453
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/sh_commands.lua",
+    "sha256": "a52d7589eddf9d7921192572a2d4227ccc1c7fb1c655e2c0ba47f953d993d7a6",
+    "bytes": 20596
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/sh_config.lua",
+    "sha256": "0aecd40c18f6d963c90a065b1494c0155f3db27ad05e4f48bfeacfc8631030c7",
+    "bytes": 9347
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/sh_data.lua",
+    "sha256": "c30f1270c3985c5c24027d9584413dd0ebe61ababaedc179ddacd3ba0c8a4b0a",
+    "bytes": 4137
+  },
+  {
+    "path": "gamemodes/helix/gamemode/core/sh_util.lua",
+    "sha256": "d77ad22a622de559716ff78322e6b60de9b8236e05286013986f618acaa39dd6",
+    "bytes": 33274
+  },
+  {
+    "path": "gamemodes/helix/gamemode/init.lua",
+    "sha256": "bd71dd6aa3f7638b0232727412e2e47ee5061ba2125ea3bb71077f9f39f3adfa",
+    "bytes": 1506
+  },
+  {
+    "path": "gamemodes/helix/gamemode/items/ammo/sh_357ammo.txt",
+    "sha256": "b9e225f6b2fc5576e3e105849c4f3ebca16f91abd4fd0f5134ab27b88d85f4c8",
+    "bytes": 218
+  },
+  {
+    "path": "gamemodes/helix/gamemode/items/ammo/sh_ar2ammo.txt",
+    "sha256": "60fbdb95aa19379692fb25f8977337c47557b18961270547db003dafa823108c",
+    "bytes": 229
+  },
+  {
+    "path": "gamemodes/helix/gamemode/items/ammo/sh_crossbowammo.txt",
+    "sha256": "6632fa1fa757799c3369eb636d6f01994f454c23b5c5e5109bfccfe45e795fe0",
+    "bytes": 214
+  },
+  {
+    "path": "gamemodes/helix/gamemode/items/ammo/sh_pistolammo.txt",
+    "sha256": "2a7a58fa4959a7ffc5901069d6c69258462b5de5111ca3e3b194e53aca535a4d",
+    "bytes": 209
+  },
+  {
+    "path": "gamemodes/helix/gamemode/items/ammo/sh_rocketammo.txt",
+    "sha256": "da602cf5c052c1109d8e4c5dbb736253811194b4b6bd67e032903038914fde90",
+    "bytes": 342
+  },
+  {
+    "path": "gamemodes/helix/gamemode/items/ammo/sh_shotgunammo.txt",
+    "sha256": "f746c98d83a6cdbfb15d1724bde8184cd9ab6cafd739799f9c6d77540a898471",
+    "bytes": 207
+  },
+  {
+    "path": "gamemodes/helix/gamemode/items/ammo/sh_smg1ammo.txt",
+    "sha256": "75116c5800e5a6971b28187a3a86b07a85c1e21fab740c419220d33334af5fc4",
+    "bytes": 216
+  },
+  {
+    "path": "gamemodes/helix/gamemode/items/bags/sh_large.txt",
+    "sha256": "f9f41ab0b5d814e229d5822d08d22f8b9ea04c6bc6252132fcb31816f124c59f",
+    "bytes": 90
+  },
+  {
+    "path": "gamemodes/helix/gamemode/items/bags/sh_small.txt",
+    "sha256": "0ba61db936a3ee584db5081189170c0648dc8596949374907bd8610ae1c704be",
+    "bytes": 57
+  },
+  {
+    "path": "gamemodes/helix/gamemode/items/base/sh_ammo.lua",
+    "sha256": "abcf95f3d11218e18f321c5f136fb836654e20dbc3daa4e56139cfb34ac95126",
+    "bytes": 1193
+  },
+  {
+    "path": "gamemodes/helix/gamemode/items/base/sh_bags.lua",
+    "sha256": "6c3896e3c50cc48d23f50874d067fcd98e55418ec9d02b5aa54fbe0ee257b055",
+    "bytes": 5664
+  },
+  {
+    "path": "gamemodes/helix/gamemode/items/base/sh_outfit.lua",
+    "sha256": "b41e8feb2ce867200a9db6fe0a1d8ac8431aa2a2ce39cf9519d3cf93ad48194a",
+    "bytes": 8071
+  },
+  {
+    "path": "gamemodes/helix/gamemode/items/base/sh_pacoutfit.lua",
+    "sha256": "ddd751f94f3eb6bb9efaa36ed514e1b07e43cee47eff9df127f2146245fcceed",
+    "bytes": 4011
+  },
+  {
+    "path": "gamemodes/helix/gamemode/items/base/sh_weapons.lua",
+    "sha256": "3b9f64f281449c42e32c355911d96caf9774f558dffac9551ad6d83046f6c5fb",
+    "bytes": 7688
+  },
+  {
+    "path": "gamemodes/helix/gamemode/items/pacoutfit/sh_skullmask.txt",
+    "sha256": "0b3246b2d903b9c2870425cdeb9c934dc1097827182531dbe2a0d6b08165291b",
+    "bytes": 709
+  },
+  {
+    "path": "gamemodes/helix/gamemode/items/sh_defaultitem.txt",
+    "sha256": "13c051bee58e2c2bdf276093c6819a6a481d57163429ec61f4dfff7f1b695d39",
+    "bytes": 104
+  },
+  {
+    "path": "gamemodes/helix/gamemode/items/weapons/sh_357.txt",
+    "sha256": "8416917ec10ddfdbd0e5f85fb9ff1742bfab47aa000fd58f63cca0c1d2aeded2",
+    "bytes": 371
+  },
+  {
+    "path": "gamemodes/helix/gamemode/items/weapons/sh_ar2.txt",
+    "sha256": "587689a815bac30f84f3dbf331b519280e44b85d46173f7ddf0b6fe4cc5d967d",
+    "bytes": 301
+  },
+  {
+    "path": "gamemodes/helix/gamemode/items/weapons/sh_crowbar.txt",
+    "sha256": "928826c6733d91de33ea696893b76df5668b03b6bebbd17d344e8387859ad611",
+    "bytes": 333
+  },
+  {
+    "path": "gamemodes/helix/gamemode/items/weapons/sh_pistol.txt",
+    "sha256": "2355a989191142b649f20c28743ae697f724e1d80d93580354377f452ca00315",
+    "bytes": 338
+  },
+  {
+    "path": "gamemodes/helix/gamemode/items/weapons/sh_smg1.txt",
+    "sha256": "1c42271d4e9ac5a69097750096cfb996de47d92d4d373f5126614f034ecb4866",
+    "bytes": 314
+  },
+  {
+    "path": "gamemodes/helix/gamemode/languages/sh_dutch.lua",
+    "sha256": "ae4af61a6d1a1328eacc3c5155b4d36f9ecf6b185019f392ce3d3bdbdf18cfcc",
+    "bytes": 6870
+  },
+  {
+    "path": "gamemodes/helix/gamemode/languages/sh_english.lua",
+    "sha256": "c9f088b0f90d10194e404ec1795ac767c46109fa5b0eefbaa99c401fa422ec02",
+    "bytes": 22086
+  },
+  {
+    "path": "gamemodes/helix/gamemode/languages/sh_french.lua",
+    "sha256": "0129d1bc0e0cad9d6f396bc6e164fe64054d696a77111632b2ed243251b416ae",
+    "bytes": 22360
+  },
+  {
+    "path": "gamemodes/helix/gamemode/languages/sh_german.lua",
+    "sha256": "fc49aedb66225d1b35dad9d63f802c40d2df2931c2e10aa125e0cbb3bde377b0",
+    "bytes": 22759
+  },
+  {
+    "path": "gamemodes/helix/gamemode/languages/sh_korean.lua",
+    "sha256": "196b4f824c36827adaf626159020dcce6a9eea35e3f90c7664bf8f4ec3c2c796",
+    "bytes": 11820
+  },
+  {
+    "path": "gamemodes/helix/gamemode/languages/sh_norwegian.lua",
+    "sha256": "378abe419ba892cef274de960964e61b141b1fc2c79300018127775f7f153977",
+    "bytes": 9884
+  },
+  {
+    "path": "gamemodes/helix/gamemode/languages/sh_polish.lua",
+    "sha256": "081d92828db900d00359fe2968ca733ede66727747d7748c9bf01a204c33bd90",
+    "bytes": 21545
+  },
+  {
+    "path": "gamemodes/helix/gamemode/languages/sh_portuguese.lua",
+    "sha256": "01d49320fa8e6a29b241d25549a6051f1b0ff450aabda40fca249e62c2b0ef3d",
+    "bytes": 21684
+  },
+  {
+    "path": "gamemodes/helix/gamemode/languages/sh_russian.lua",
+    "sha256": "7380df48d7383fb6953d7e467d13923e38cefd41c115929bc67a5cc62ae67ebf",
+    "bytes": 30941
+  },
+  {
+    "path": "gamemodes/helix/gamemode/languages/sh_spanish.lua",
+    "sha256": "32b639c7b7a4a70cccb0aeae1758432ef5a335709415b1002718fd8798e629ec",
+    "bytes": 24709
+  },
+  {
+    "path": "gamemodes/helix/gamemode/shared.lua",
+    "sha256": "722d35afa15ff2fa93fc2ecf7c711221ad06e23b0c3d92f68f9f45cf6113d9f7",
+    "bytes": 6094
+  },
+  {
+    "path": "gamemodes/helix/helix.example.yml",
+    "sha256": "05990c6d4867e9a1a982649107ac8b585765516823436ecdc86185fcac088d3a",
+    "bytes": 83
+  },
+  {
+    "path": "gamemodes/helix/helix.txt",
+    "sha256": "63faa5664a63dc1be6f44b2d9b95a996e9fbbe3031ac13401f5c7453e2c549f1",
+    "bytes": 76
+  },
+  {
+    "path": "gamemodes/helix/plugins/3dpanel.lua",
+    "sha256": "36f5ef57fd78399033188553a8806471cbd5888ebbe4e6a4e3d9dfcee0f3c615",
+    "bytes": 10619
+  },
+  {
+    "path": "gamemodes/helix/plugins/3dtext.lua",
+    "sha256": "1c236b1e753139150ff0e8515cf100c419bc1a7f3c295914b86d066123a3cc0d",
+    "bytes": 8060
+  },
+  {
+    "path": "gamemodes/helix/plugins/act/cl_hooks.lua",
+    "sha256": "e5602a882796afc12b77490ccb27ecc81ee23852991859635af7e2b2aa0c2159",
+    "bytes": 3100
+  },
+  {
+    "path": "gamemodes/helix/plugins/act/sh_definitions.lua",
+    "sha256": "55c7b619ce7bfc1f88657b5b577f173c5f6592fb37cdf57ac5510233e60a0667",
+    "bytes": 3803
+  },
+  {
+    "path": "gamemodes/helix/plugins/act/sh_plugin.lua",
+    "sha256": "4d470a470bcc6bfd4c67f3cbc5a837e243e5cf24832c2d017621c52791d8244a",
+    "bytes": 6717
+  },
+  {
+    "path": "gamemodes/helix/plugins/act/sv_hooks.lua",
+    "sha256": "1e3920418e9fe87e93287f63aae2befa5faf18f9065bfad29d60deb56752233c",
+    "bytes": 1255
+  },
+  {
+    "path": "gamemodes/helix/plugins/ammosave.lua",
+    "sha256": "27f91d2c37874b5f95d79ecd432847389c11caea3b23538fd8c53385bd8f4ab6",
+    "bytes": 2055
+  },
+  {
+    "path": "gamemodes/helix/plugins/area/cl_hooks.lua",
+    "sha256": "dd34ab112e07620248e6a7e7c2936fa0797d2930189d15597b741303e989c1e5",
+    "bytes": 6115
+  },
+  {
+    "path": "gamemodes/helix/plugins/area/cl_plugin.lua",
+    "sha256": "f123e252f9a757bfdb9b650845383cb98571172b34be91b67938025e644c223b",
+    "bytes": 475
+  },
+  {
+    "path": "gamemodes/helix/plugins/area/derma/cl_area.lua",
+    "sha256": "48046eb0f519c1198d752bfd672ec162fa897152a29c0484d49922a7037af7a3",
+    "bytes": 3912
+  },
+  {
+    "path": "gamemodes/helix/plugins/area/derma/cl_areaedit.lua",
+    "sha256": "fec1343ce578d04ab502a8c21d9e1f1834b90f6226efc4500bd2beb575c1e402",
+    "bytes": 4513
+  },
+  {
+    "path": "gamemodes/helix/plugins/area/languages/sh_english.lua",
+    "sha256": "acdbfd49c767befe01d6d8d408a8b62218da273406e487d0972b02a97c141805",
+    "bytes": 663
+  },
+  {
+    "path": "gamemodes/helix/plugins/area/languages/sh_russian.lua",
+    "sha256": "4a0abfae5ef129c8a33eb7548f5d71e9759f51eb0ec0ac65fd22cf0b7b28a74d",
+    "bytes": 1122
+  },
+  {
+    "path": "gamemodes/helix/plugins/area/sh_plugin.lua",
+    "sha256": "56fb3f49d6777da59d86771a26939bfbe10bcd9f1388c79e4b80bc7a403cec5b",
+    "bytes": 2177
+  },
+  {
+    "path": "gamemodes/helix/plugins/area/sv_hooks.lua",
+    "sha256": "58556d565f52783a751395f237fddd217b701727a70ac6c01d0dc03260fbf353",
+    "bytes": 2824
+  },
+  {
+    "path": "gamemodes/helix/plugins/area/sv_plugin.lua",
+    "sha256": "f369f93c62d320166970ea67ad7223cf4a1a6867a07a980de7312a8d74dc6787",
+    "bytes": 1527
+  },
+  {
+    "path": "gamemodes/helix/plugins/chatbox/derma/cl_chatbox.lua",
+    "sha256": "8786d724bcadc2730542b70e4972c3dd4452dd5d3c8445b8860b719cb9066f95",
+    "bytes": 32929
+  },
+  {
+    "path": "gamemodes/helix/plugins/chatbox/derma/cl_chatboxcustomize.lua",
+    "sha256": "8d02159841f5ca30ea86ae349f9cb3adbc768ee97054dcc84041d562be7dae18",
+    "bytes": 2767
+  },
+  {
+    "path": "gamemodes/helix/plugins/chatbox/sh_plugin.lua",
+    "sha256": "7cc4c729a2e2203dc43f482266a8258286216321dc9ed659cd00fbd59b0768bf",
+    "bytes": 3792
+  },
+  {
+    "path": "gamemodes/helix/plugins/containers/entities/entities/ix_container.lua",
+    "sha256": "2c110c0582ea2765f308ae40c0be59346ba68b75c4100c369d81046ba9c94875",
+    "bytes": 4556
+  },
+  {
+    "path": "gamemodes/helix/plugins/containers/sh_definitions.lua",
+    "sha256": "9b0f426e1316138bb2777bfa148acc2adef207947f2dbb3ed9f4bb1d0544652c",
+    "bytes": 3040
+  },
+  {
+    "path": "gamemodes/helix/plugins/containers/sh_plugin.lua",
+    "sha256": "eadd60c2068ef50d3645f8baa32ddf6c6c9d9ecce11635326838c34d50e7ba7b",
+    "bytes": 9020
+  },
+  {
+    "path": "gamemodes/helix/plugins/crosshair.lua",
+    "sha256": "d7e12d93eac40fa65ea4a906d3135a3469211b58dea303cc66841614d9f58d56",
+    "bytes": 3356
+  },
+  {
+    "path": "gamemodes/helix/plugins/doors/cl_plugin.lua",
+    "sha256": "b197b240a89d13d1f538411832afa0933f82e43ff434583bebfe4e6dd1b84c80",
+    "bytes": 5487
+  },
+  {
+    "path": "gamemodes/helix/plugins/doors/derma/cl_door.lua",
+    "sha256": "ccedf4e0ec45f115c963d01432b78762afd8c88a87d79f8d1f49666fb15d4d55",
+    "bytes": 2722
+  },
+  {
+    "path": "gamemodes/helix/plugins/doors/entities/weapons/ix_keys.lua",
+    "sha256": "126be971e9fa5daffe705523c4960f3b77134996ccb9d35a5e72f7b24e6bb450",
+    "bytes": 4455
+  },
+  {
+    "path": "gamemodes/helix/plugins/doors/sh_commands.lua",
+    "sha256": "d63be3c85cf9c6270e4765569afc236dd88d955e20a276238b5b7219c8916900",
+    "bytes": 13682
+  },
+  {
+    "path": "gamemodes/helix/plugins/doors/sh_plugin.lua",
+    "sha256": "ee8387906fd058ecbe58865cc0f784061035e822993a28838818f959b58a4141",
+    "bytes": 1860
+  },
+  {
+    "path": "gamemodes/helix/plugins/doors/sv_plugin.lua",
+    "sha256": "2f0de8238cf246a0c8de768f5371d4c286ced6f66f75208bad17ca69a459211c",
+    "bytes": 6433
+  },
+  {
+    "path": "gamemodes/helix/plugins/logging.lua",
+    "sha256": "96c7eb81d99024feb520f465c90e9432483c66976fd7911fc4f84fbdf730fb1d",
+    "bytes": 7145
+  },
+  {
+    "path": "gamemodes/helix/plugins/mapscene.lua",
+    "sha256": "055c50e512fc5ea93741f0ca9bdb39258ceb87939097a1fab83cfe58cda27b78",
+    "bytes": 6490
+  },
+  {
+    "path": "gamemodes/helix/plugins/observer.lua",
+    "sha256": "96d53dfb6fc3369c1e90d99ae7869e2f77c5747a58d4c4563e7f5c864b7da814",
+    "bytes": 5793
+  },
+  {
+    "path": "gamemodes/helix/plugins/pac.lua",
+    "sha256": "7e2a516249fd713489fb39c84e962990b09ea717d6685b77bebf2c69405a3dff",
+    "bytes": 7819
+  },
+  {
+    "path": "gamemodes/helix/plugins/permakill.lua",
+    "sha256": "77af71b1822fa1642e1a4bfc7182fb04dcc969fba17042dcd5c71490d49324f0",
+    "bytes": 1046
+  },
+  {
+    "path": "gamemodes/helix/plugins/persistence.lua",
+    "sha256": "cb6c84a29df4beaa943bdb3625689df5d41b558ace3c496e9db8464d0b6d588a",
+    "bytes": 4614
+  },
+  {
+    "path": "gamemodes/helix/plugins/propprotect.lua",
+    "sha256": "15a149e02d5836f0e478ea93146e327f049cf1c0e53614bbca8173778f27994f",
+    "bytes": 5450
+  },
+  {
+    "path": "gamemodes/helix/plugins/recognition.lua",
+    "sha256": "0d02b33834dc5d42e1dd24ccd5771d5a1268fa1774428ffeba4bbbbc76ea531c",
+    "bytes": 4573
+  },
+  {
+    "path": "gamemodes/helix/plugins/saveitems.lua",
+    "sha256": "c20ceababf2426b9c008e70f44a269993d024cb5287cf7350d0596b16ff4e9f1",
+    "bytes": 3091
+  },
+  {
+    "path": "gamemodes/helix/plugins/spawns.lua",
+    "sha256": "cd74f6c5789b75bdd378d04c103f296f411657c786331723273ae5ea4ae8e4fa",
+    "bytes": 3030
+  },
+  {
+    "path": "gamemodes/helix/plugins/spawnsaver.lua",
+    "sha256": "80cb104a16fd3217ab7d6bc34bdc1c91e589e2f3081b882350f3e461581d0878",
+    "bytes": 1454
+  },
+  {
+    "path": "gamemodes/helix/plugins/stamina/attributes/sh_end.lua",
+    "sha256": "b66b64e7b4c1282b733088fc962476abc0d3f77d562e19922496c35f1871b13b",
+    "bytes": 88
+  },
+  {
+    "path": "gamemodes/helix/plugins/stamina/attributes/sh_stm.lua",
+    "sha256": "eff1bb66c3d83d0c20fc7c078a8cba8d080ccf75f316721b3ac7dc09ba14e9c0",
+    "bytes": 185
+  },
+  {
+    "path": "gamemodes/helix/plugins/stamina/sh_plugin.lua",
+    "sha256": "15c8b9dce877deb13cde964c48b317fea105d93cf25d7123f503b0a3bc95612f",
+    "bytes": 4173
+  },
+  {
+    "path": "gamemodes/helix/plugins/strength/attributes/sh_str.lua",
+    "sha256": "7e2077378b809b4059b6d6a26087346c29cf35c3a635dadaeec8a3f9618ac86d",
+    "bytes": 86
+  },
+  {
+    "path": "gamemodes/helix/plugins/strength/sh_plugin.lua",
+    "sha256": "84d8b1b01228ee7aeeb079bb96e6e4e1e27cb58c6575f9080c61ff84b45e6027",
+    "bytes": 775
+  },
+  {
+    "path": "gamemodes/helix/plugins/thirdperson.lua",
+    "sha256": "cc65b9018cea37861222f6806b75319d1491e9ec901750616fcc0299003186f8",
+    "bytes": 5056
+  },
+  {
+    "path": "gamemodes/helix/plugins/typing.lua",
+    "sha256": "4f6731d29c1da1a3bed50b3afc4324873e9c0002aab7ca33b8f053168ca091eb",
+    "bytes": 6230
+  },
+  {
+    "path": "gamemodes/helix/plugins/vendor/derma/cl_vendor.lua",
+    "sha256": "10e06e560dde035124f41815ca350ef13ad70629978b1b1f2774c1d0248ace5f",
+    "bytes": 7758
+  },
+  {
+    "path": "gamemodes/helix/plugins/vendor/derma/cl_vendoreditor.lua",
+    "sha256": "f1f532eaa5f6c1d5915abaa8029277d75908dc7426e619aca73dc2574fc4cef4",
+    "bytes": 8035
+  },
+  {
+    "path": "gamemodes/helix/plugins/vendor/derma/cl_vendorfaction.lua",
+    "sha256": "67d74857a0309223fa9c6557647f43f3200987101498482becba3619239d756f",
+    "bytes": 1381
+  },
+  {
+    "path": "gamemodes/helix/plugins/vendor/entities/entities/ix_vendor.lua",
+    "sha256": "c30d4f32c7d9fdc96a3924640fec58d477937957d2a57ca90020463c3655a3d0",
+    "bytes": 7798
+  },
+  {
+    "path": "gamemodes/helix/plugins/vendor/sh_plugin.lua",
+    "sha256": "122292d177bd99861d3d3f4f29c33e6739dccea75af6891d5fc9c0d4d67b089c",
+    "bytes": 17693
+  },
+  {
+    "path": "gamemodes/helix/plugins/wepselect.lua",
+    "sha256": "fd468f918a0035d15738a4176f3b04bd13dcd093e21d53a25be394db817a52ab",
+    "bytes": 5276
+  },
+  {
+    "path": "gamemodes/starwarsrp/gamemode/cl_bootstrap.lua",
+    "sha256": "7570aea2632d775a13cc3537153690d15a21dd6a1d0654a392263b5e6e175aed",
+    "bytes": 11954
+  },
+  {
+    "path": "gamemodes/starwarsrp/gamemode/cl_init.lua",
+    "sha256": "2a00cd41144fad3d217235b5c115fc68f4a030aebc466ce3d6764e0ef7207354",
+    "bytes": 1380
+  },
+  {
+    "path": "gamemodes/starwarsrp/gamemode/init.lua",
+    "sha256": "6a9402c1ad325216e81632b47080747df908d288c56cd5865f474340bcaadf73",
+    "bytes": 144
+  },
+  {
+    "path": "gamemodes/starwarsrp/gamemode/shared.lua",
+    "sha256": "5188bb7909c67190975eceb614e6e144f7deb5b6d423b732677fa5c7d0188522",
+    "bytes": 227
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/attributes/sh_agility.lua",
+    "sha256": "0fec7263fc709eba6d2124ae1371280c304e1201524172a5bb0089c90128d848",
+    "bytes": 124
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/attributes/sh_diplomacy.lua",
+    "sha256": "e68fc81ea3c1e5ca50b05736c3f6af5b452dd79474202d692ae74c68e178a1b5",
+    "bytes": 124
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/attributes/sh_intellect.lua",
+    "sha256": "48f9639a94d5c4db5dc44ddeb393b1340387e0b41317f8f963359707af9e4bf6",
+    "bytes": 127
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/attributes/sh_spirit.lua",
+    "sha256": "fa1e1ef064431eb08cb4341e6859bf28908154fd710a9df14c09d6c24b449490",
+    "bytes": 161
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/cl_schema.lua",
+    "sha256": "3e907376bae6576667451b72274dcb8e63b80f14a4c58644171e656967f540fd",
+    "bytes": 530
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_501st_legion_501st_commander.lua",
+    "sha256": "7de87e188eaf47a778955249fc89f186280d97622dca26cbfa6bcb017915e73a",
+    "bytes": 1008
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_501st_legion_501st_nco.lua",
+    "sha256": "bc18b0a5d4a7266826d06d96eb47f079dfda83ed73d3383c83da37e2ebb47c83",
+    "bytes": 978
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_501st_legion_501st_officer.lua",
+    "sha256": "874e4a06665b908d5c36442be4ec361581aa248bb94e0a3cf7234778164ee960",
+    "bytes": 955
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_501st_legion_501st_trooper.lua",
+    "sha256": "48669ba7bcc753d0597099285ff83216eee6f509c786a6790c117bad39931488",
+    "bytes": 897
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_bounty_hunters_boba_fett.lua",
+    "sha256": "d9a9bd134f1db4cbc6f0f9d9a094fb03848f50df4624a185f3778fa95af977b7",
+    "bytes": 918
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_bounty_hunters_bossk.lua",
+    "sha256": "5d74c6cf238593cdac55b95e7cad6390697b4a76dfee55930fba63dd3f2d93e7",
+    "bytes": 1290
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_bounty_hunters_dengar.lua",
+    "sha256": "b6def1e4f3effe8aa3f66ebf562ab27a6c1cbb662b25f0a3845de7649016edc6",
+    "bytes": 1285
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_bounty_hunters_ig88.lua",
+    "sha256": "803f4ef1d856880cfd134a262d42fee8533483163096d612a0f28e8de02cc857",
+    "bytes": 1136
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_emperors_inner_circle_darth_vader.lua",
+    "sha256": "393a4c4dae0c8bd081c88150f69b459e70a0462b80f433ed5aa21ac6cadac78f",
+    "bytes": 853
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_emperors_inner_circle_emperor_palpatine.lua",
+    "sha256": "998f3f9ad655aaac246915a9cc7f0e4f40dff5e52550d88fbcc57879939b7aff",
+    "bytes": 856
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_emperors_inner_circle_thrawn.lua",
+    "sha256": "af1e94ab8698dc72fb55664b7cee02180a4dc788a500da9abf94b7da564acf2f",
+    "bytes": 888
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_emperors_inner_circle_wilhuff_tarkin.lua",
+    "sha256": "ce272986c1a43cacbd2de2044af1581d2ccea9bd50e2aae5d22fa305ba1d2260",
+    "bytes": 900
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_cadets_imperial_cadet.lua",
+    "sha256": "eb6852eade2c25e1338190c2c441a4c54b748a8f661f709aa7bcbcbb9883f2f1",
+    "bytes": 881
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_commandos_delta_07_sev.lua",
+    "sha256": "f851ba4b20fa1f263db1b70b204a23fccbffefce5b02f37711b665f1c9a3e300",
+    "bytes": 884
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_commandos_delta_38_boss.lua",
+    "sha256": "457a431bc1f29b0c1eb21ab4f921573937b081d73eed5b3342b7e4035d5f5a61",
+    "bytes": 934
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_commandos_delta_40_fixer.lua",
+    "sha256": "3156e78b526f25b60d3027218631418725110d508daedbfd25386edb45c712eb",
+    "bytes": 920
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_commandos_delta_62_scorch.lua",
+    "sha256": "64521b06c0070850f9eb18cc7a9e7f8eb7b6031ab1e70d8764ab245a66935c47",
+    "bytes": 914
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_death_trooper_detachment_death_trooper.lua",
+    "sha256": "514ac8c2cefd5f0b45634cd35d69e54fa21684f9500ff06da335754cd90afcfb",
+    "bytes": 945
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_death_trooper_detachment_death_trooper_officer.lua",
+    "sha256": "8b45b7ffa50f93e85665ef9c0720573292de30080b0c998592b37548b3028d1f",
+    "bytes": 963
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_death_trooper_detachment_ghost_trooper.lua",
+    "sha256": "d51a7ffca3eaf4d0822346b82e81ffc0b8be64928a3a9b21c6ce25555113ea8f",
+    "bytes": 964
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_death_trooper_detachment_ghost_trooper_officer.lua",
+    "sha256": "cb6a71d0c89c5ed1080f5f9a75fd1f9ea0571b1e2511d7d5041be7d2d02ac837",
+    "bytes": 960
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_death_trooper_detachment_orson_krennic.lua",
+    "sha256": "009389dd1bef0e91d1f492985c104575cc7b5b0c82557d5a81f930a803f5a37c",
+    "bytes": 1011
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_high_command_alexandr_kallus.lua",
+    "sha256": "b1900a02528e3b49fc7d3d18612c714e4ffb2a912e1afd77ae95dd674b87aef5",
+    "bytes": 894
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_high_command_maximilian_veers.lua",
+    "sha256": "0d86437271649506e4a82210cb9072d91279e40d67704d38431431b9430d9c62",
+    "bytes": 885
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_high_command_wulff_yularen.lua",
+    "sha256": "0e90e8a5a50bd9fb291213e20fadd3bbdf0c8a19d7c24765521293e0aa6bd801",
+    "bytes": 883
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_navy_imperial_naval_medic.lua",
+    "sha256": "dd76fc9a0457fa7c854f7a0bedee5696ad37926b63463c23b22131bebfb38c97",
+    "bytes": 865
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_navy_imperial_navy_engineer.lua",
+    "sha256": "2092a107742c4efed49b18bc90c241bd31469e371d88b0a7f539004bc858335f",
+    "bytes": 872
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_navy_imperial_navy_enlisted.lua",
+    "sha256": "897dea124d747dfded6e6389215af27266f924416d1ec463d034acaff6e6d237",
+    "bytes": 855
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_navy_imperial_navy_isb_agent.lua",
+    "sha256": "ca3e1a5bd5754f70576b4eb1201f1bd9c86f933f021715ce7e820bed52367e47",
+    "bytes": 881
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_navy_imperial_navy_pilot.lua",
+    "sha256": "41f5c5042ebd421d3881d4370b3867290efbe0a60ca9a7db60f5f3ec3e8ee723",
+    "bytes": 909
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_royal_guard_commander.lua",
+    "sha256": "6df4db830b37f023747dc0056a0404e39c01492364cdfda9c70c5db894a93e53",
+    "bytes": 991
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_royal_guard_guard.lua",
+    "sha256": "415a5057dd5120c371af2e5bbb17ed8c9d31af548c7942bfe61ad6be2f400e3a",
+    "bytes": 967
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_royal_guard_initiate.lua",
+    "sha256": "e21887f041b22a4f85f75451b29a7556b13513fa319616303425bd623108536e",
+    "bytes": 984
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_royal_guard_sentinel.lua",
+    "sha256": "8fe2342e9d9d398c8ec59dfc3456f78ba50727ac43091ac01ecc91b9b28067ac",
+    "bytes": 986
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_shock_regiment_shocktrooper.lua",
+    "sha256": "4e446f943b2100522b316daa27426398af5b28523643fc7fe0c29f3301d9175f",
+    "bytes": 876
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_shock_regiment_shocktrooper_battalion_commander.lua",
+    "sha256": "6e6a9af281b9a20cc0b05692285aef60f6b7e58eff58a64df5508dbc37252044",
+    "bytes": 949
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_shock_regiment_shocktrooper_nco.lua",
+    "sha256": "0476dcec6c527f2e9b638597693ffca989f1a042273c2c3ec4c2f40176a13c03",
+    "bytes": 885
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_imperial_shock_regiment_shocktrooper_officer.lua",
+    "sha256": "f5cff176b3854b80a831d6aa53f4c742c0e142afaab574f447926b203d0c0f17",
+    "bytes": 934
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_inferno_squad_del_meeko.lua",
+    "sha256": "e6e9fdd21bed50f8102824ff830ef7dd8fc8973008888914c0a1c01fd2904c80",
+    "bytes": 863
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_inferno_squad_gideon_hask.lua",
+    "sha256": "0d2400d2c5b6eced933804b1311da6e0cea21d177a14b71a9417faeda95c4752",
+    "bytes": 845
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_inferno_squad_iden_versio.lua",
+    "sha256": "8d68d48fdef709b96703d465646cd1c6a2b84566c5c997baea25cc83358454c0",
+    "bytes": 912
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_inferno_squad_seyn_marana.lua",
+    "sha256": "84afe946f8dcb173e974a8a6722eb920369ecabe67b3b400532f03f26b8d280a",
+    "bytes": 848
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_purge_troopers_purge_trooper.lua",
+    "sha256": "a27fed208dc2f9ef979f2a020276157de72d9e75e17f21c48176641ee0242750",
+    "bytes": 910
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_purge_troopers_purge_trooper_commander.lua",
+    "sha256": "bd4face5923dddde96600709d6e01dc062b201fcc504ffc771ed948a0c75dd33",
+    "bytes": 1004
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_purge_troopers_purge_trooper_nco.lua",
+    "sha256": "e4c833719fa2ff63ee190f0b2f5f0e9022b94139625df4d0db43d6624963a9f8",
+    "bytes": 959
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_purge_troopers_purge_trooper_officer.lua",
+    "sha256": "eb795e2c02531928ad5269f78ec0453fafcb5f9df95a83323257f94a95f2d9ba",
+    "bytes": 961
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_rebel_alliance_commander.lua",
+    "sha256": "6289c7c95e9905d19cf7c833e9f3c3c6ecb26e5f6245e5bcea9c1abad9b4a760",
+    "bytes": 765
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_rebel_alliance_engineer.lua",
+    "sha256": "fa7511f9a4b3f5f6d16a248e2d5a687d42eb50ae2a2a60a179948559f0226ffa",
+    "bytes": 830
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_rebel_alliance_heavy.lua",
+    "sha256": "3c170ac17825a96873abd41f0af566009db460acecc985ac924d16feffca96f8",
+    "bytes": 770
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_rebel_alliance_marksman.lua",
+    "sha256": "79faf996ec76e5e66e03451bfc8d8d9ba76025699bc16c8af8d8f57e16f95f47",
+    "bytes": 863
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_rebel_alliance_medic.lua",
+    "sha256": "e5f8c68168b0f7f56a35849f3bcbf3b231554bad3238e3d346606046c86eba7c",
+    "bytes": 753
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_rebel_alliance_officer.lua",
+    "sha256": "11c67167cad7b02b026087610cbb3dd53f9111be92a24e51d60ab6c8fd1a33d3",
+    "bytes": 766
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_rebel_alliance_pilot.lua",
+    "sha256": "4d115dbf73f2ba5971ecff5d3ea96ea7059981738dacaeb8a07a78f84a7affdc",
+    "bytes": 814
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_rebel_alliance_trooper.lua",
+    "sha256": "e8f56bdcf6b148086f196c33ee8e97b029460cddb9d799999bdd91cf0c675442",
+    "bytes": 759
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_stormtrooper_corps_stormtrooper.lua",
+    "sha256": "f6ba525cd191fc1071a9b7b2d5daadcf195eed1a28ec3e0c8a6ad020cc1fdb41",
+    "bytes": 873
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_stormtrooper_corps_stormtrooper_nco.lua",
+    "sha256": "3a4ce6112fb89eb4d57c96483141c637af8bd148f21a9700437dab4a5d66f3b7",
+    "bytes": 912
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_stormtrooper_corps_stormtrooper_officer.lua",
+    "sha256": "8d9a4ff2a08372ca7fcf36fe1eeb6c517e151e5e57a519f1d32bdd409c00913b",
+    "bytes": 943
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_stormtrooper_corps_stormtrooper_squad_commander.lua",
+    "sha256": "95f77ca9374615854f87073eb90b0737a1e8643ef8a8e386d4dc0cc74de85d83",
+    "bytes": 952
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_the_imperial_inquisitorious_eighth_brother.lua",
+    "sha256": "3e433d757ebc1b92676fa3b3c626c165ef4532f0f3a6a928ddb74c5c729cca8d",
+    "bytes": 873
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_the_imperial_inquisitorious_fifth_brother.lua",
+    "sha256": "f73e5a3da56819b4a8b6b61b49f5a837e2ff331319d077be5e3bb27f328a123a",
+    "bytes": 870
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_the_imperial_inquisitorious_first_brother.lua",
+    "sha256": "570137cee5ce2cfae3b184f6071cbdd078543b9c5f125414a008f8008a50293e",
+    "bytes": 870
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_the_imperial_inquisitorious_grand_inquisitor.lua",
+    "sha256": "d48d559921ff747b7f6cafa26982c0e0b1688d9ae2d297dc2a008d87a125e66a",
+    "bytes": 882
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_the_imperial_inquisitorious_ninth_sister.lua",
+    "sha256": "683e8c49bad774355401b756d7909d498a9b34a3d9254a670e9a509809fe1a62",
+    "bytes": 865
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_the_imperial_inquisitorious_second_sister.lua",
+    "sha256": "09bafd4b3b9b17863b3c41cff38a731b3cc7a3852030f131a328fc19c29b798c",
+    "bytes": 887
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/classes/sh_the_imperial_inquisitorious_seventh_sister.lua",
+    "sha256": "39bff4a704b3a85ed00597baffb85e6755d61ae9b4cd6ca9ed18860815d91349",
+    "bytes": 874
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/factions/sh_501st_legion.lua",
+    "sha256": "21f38988b7f8c1e74c0252a898eecc28c6a234d244e3914b33cdd2515ba370b0",
+    "bytes": 479
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/factions/sh_bounty_hunters.lua",
+    "sha256": "5653d88af1c0a9d76135553536ea8caf4a10f44297e9b212e117bbd44904901b",
+    "bytes": 366
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/factions/sh_emperors_inner_circle.lua",
+    "sha256": "735698cc542d0f7b7ccae9ad0fd0582d3d26c925e6077f3c758e5d0d6164a93d",
+    "bytes": 498
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/factions/sh_imperial_cadets.lua",
+    "sha256": "5ff16a118cea3c6e32927f3279b256c582a703f2ac4e3a86fff1baca24825552",
+    "bytes": 433
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/factions/sh_imperial_commandos.lua",
+    "sha256": "97ca828836b5a0883f86838598593a65a5faa4737e5b1535d72b93d33cf6d7b2",
+    "bytes": 514
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/factions/sh_imperial_death_trooper_detachment.lua",
+    "sha256": "0d1b04ba40a59a8f084bfbc866201c0666e56944a450d365d41e7afd9ff62fd3",
+    "bytes": 473
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/factions/sh_imperial_high_command.lua",
+    "sha256": "a959f03237229032db8005316d3d0ca48d9ed82a015803b7f63d326f93f8e2fd",
+    "bytes": 462
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/factions/sh_imperial_navy.lua",
+    "sha256": "c4890f6f528d6d19b542c8f85dcc052e12656307c2a81da62b22305c58d3724f",
+    "bytes": 573
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/factions/sh_imperial_royal_guard.lua",
+    "sha256": "233ab87641d75bba5fd0adc26c281b2c5e9c31f32395bcf9956270c46ec51883",
+    "bytes": 1256
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/factions/sh_imperial_shock_regiment.lua",
+    "sha256": "3026e6b9362b7efb053f6a07d3d05957f981894a533664658ae70fec66c54f04",
+    "bytes": 483
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/factions/sh_inferno_squad.lua",
+    "sha256": "ce85a728555627f1921cae495505963f5dcd04ea25b09067eeae629586fce675",
+    "bytes": 463
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/factions/sh_purge_troopers.lua",
+    "sha256": "d778bf4a0685d51a617957ba7f305795eb37cbe1f8c5a3d4748b428c35ae36d2",
+    "bytes": 525
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/factions/sh_rebel_alliance.lua",
+    "sha256": "33e8035948b0f37349930b192d4965d9e440d2eb4603a3afef0c0b082e7ab416",
+    "bytes": 963
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/factions/sh_stormtrooper_corps.lua",
+    "sha256": "21d6c81e0b55e2e0d7db6dd0d2f131ed568afb3a044b14496d6bd9fd76f56b00",
+    "bytes": 458
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/factions/sh_the_imperial_inquisitorious.lua",
+    "sha256": "744881f1e883265c1ce7f8e9380fb9d086cb72464a17bb048496bef0b0f3f6b6",
+    "bytes": 711
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/hooks/sv_hooks.lua",
+    "sha256": "acb2770341c8f9feacda3953ceb5f1d8a3fef843b0f05fccec0f14b600bb68e7",
+    "bytes": 1235
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/items/sh_arc_staff.lua",
+    "sha256": "636abe36f9964f097ab8d43258a81508e08053f9236637588cce41450f49eae1",
+    "bytes": 846
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/items/sh_combat_blade.lua",
+    "sha256": "1ddacdd6cd1a424b11435cfc44cb732aa9ab4a9fc656ad43dc16aa63868526df",
+    "bytes": 858
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/items/sh_command_pistol.lua",
+    "sha256": "3c623106b9bbae68d32eb2544f81584ea3217a1cfcb2e7b4d10e5827b6ce6ee2",
+    "bytes": 837
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/items/sh_heavy_scatter.lua",
+    "sha256": "e09b74c70f0a90d4dfd784b7f4a1291a5d2a63587110f686bd7aad9ec28974b3",
+    "bytes": 867
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/items/sh_medkit.lua",
+    "sha256": "a7589780a856b9c1c7cd6a9e06c380eff25512e6351bfd8918909d1b4fbe8d34",
+    "bytes": 713
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/items/sh_plasma_rifle.lua",
+    "sha256": "ba976dd9300bd975e3ecd02196684978dbf0d87863087ecf03eefae79b7fa541",
+    "bytes": 865
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/items/sh_scatter_pistol.lua",
+    "sha256": "c3f993eb206d05c5f45f23d060e92c0ad193907e9c2209aca2817eb31b931982",
+    "bytes": 832
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/items/sh_stasis_pistol.lua",
+    "sha256": "0a43f21e2666afc01a039f4323a8388ed7e0cd2aa02f65ad07db53624f6949bf",
+    "bytes": 857
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/items/sh_stim.lua",
+    "sha256": "4ca9cee44792d4b913793ac0cc34977c1b2ecc7b38a745cf9c0b7dc782f06777",
+    "bytes": 676
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/languages/sh_english.lua",
+    "sha256": "1b1fbbad899e0ddded482accc01a6003d983cc50dabead9bb26639f1e182ce8a",
+    "bytes": 2528
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/animfix/sh_plugin.lua",
+    "sha256": "a6db6e37292502a30738bcbb61edad52ed37bb97185fe4d3671508d555162310",
+    "bytes": 24716
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/chat/cl_chat.lua",
+    "sha256": "120bd2ccf9ae3c48cc5895d4228024b631d01e175ad59f9b9e8631dbd84a8370",
+    "bytes": 1222
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/chat/sh_plugin.lua",
+    "sha256": "85b10974f4e7ba5884487018c5019196e985f93c1be2a58a7c28fc1c7a6c372d",
+    "bytes": 204
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/chat/sv_chat.lua",
+    "sha256": "d6c59d4a7f197e751d1c1d2bcfbf5c7bcda13083d44a1482907c7db0ad111772",
+    "bytes": 1157
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_animations/sh_plugin.lua",
+    "sha256": "d61b51a757b88cffa115fed889fe7edfa93aa3d5ae95fb3edbf34f18da3ebeb2",
+    "bytes": 26897
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_assignments/README.txt",
+    "sha256": "ccb6265454f1d67fc0f4f2b6bad9e590edf60e5bd8784a735a918bb016234e14",
+    "bytes": 6486
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_assignments/cl_assignments.lua",
+    "sha256": "fbd90e19be631ea1b0a38abf72d16ad42d1688bbfef9eba337e41e3092a09da8",
+    "bytes": 20202
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_assignments/sh_config.lua",
+    "sha256": "4f71332fa51a88757450e306943a4b0ec17c39f666d39fd95b4491c155db7c28",
+    "bytes": 9783
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_assignments/sh_plugin.lua",
+    "sha256": "309bc8fddc566f75586c8135e3ff883eee41a10517033ae679c9a24958341dea",
+    "bytes": 301
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_assignments/sv_assignments.lua",
+    "sha256": "d0cfa751c3ff141e9b7815694843806ff94409f61314105aa57e59574e10c9ab",
+    "bytes": 27318
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_certifications/README.txt",
+    "sha256": "75f3ac9ea8370f420493956c52c571716a2f7d47652c6eacacf1da1d2a727455",
+    "bytes": 4998
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_certifications/cl_certifications.lua",
+    "sha256": "5b228421c0d4c945b6074a83d3fce84e1529306e5fd4b9236b0f6c056f7a6739",
+    "bytes": 11792
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_certifications/sh_config.lua",
+    "sha256": "28c095c98affa3b2065f3ecea3c0e7ccbf2d71ec22bffd4a29b88ad56844ea81",
+    "bytes": 7306
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_certifications/sh_plugin.lua",
+    "sha256": "51395820ed36aeb8e6f6d6812d644531e70ae9375cb36ebfdcd0ce5af54bd5d0",
+    "bytes": 303
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_certifications/sv_certifications.lua",
+    "sha256": "59eefd8a23592fc5016a7fc26bfdbfb84c786ac38f4dd56e5c9094abad46d249",
+    "bytes": 12293
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_class_armor/sh_plugin.lua",
+    "sha256": "4923938150ccdb68042539eac2b57dbfaf5ee7b7743d814515c2b170154a3b8a",
+    "bytes": 1997
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_comms/README.txt",
+    "sha256": "0a9fe2f06209fdd91152d6983e066c43704b6dbf8e00f820a12a531c01361b95",
+    "bytes": 919
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_comms/sh_config.lua",
+    "sha256": "dbd40d884613c255e1068ae26c6d8ff380cd16fb35ff70bfa1c19acfa61e5405",
+    "bytes": 1531
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_comms/sh_plugin.lua",
+    "sha256": "8895af72e6c15b6daf9f0653724472b5414020cc8e140ffe70bdb24f7d96abb5",
+    "bytes": 11141
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/cl_creation_description.lua",
+    "sha256": "f368490650fa47aff24965c2125c432d60eb641b8159651010f28517ca1627c4",
+    "bytes": 4026
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/cl_f6_cursor.lua",
+    "sha256": "690e73340d78a69fcf9099a99613e927913da7effc0aa6c376b25133143402cf",
+    "bytes": 1779
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/cl_overhead_ui.lua",
+    "sha256": "c7186e7be7db662de8d358035ecdbe4dc865c583cb04016c3a0cc2e7fdd052c0",
+    "bytes": 13732
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/cl_qmenu_fix.lua",
+    "sha256": "23ab65aa8fddf8be9940018bef52654db0f92e48bbb898d821bb57872900e994",
+    "bytes": 7598
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/cl_suppress_stamina.lua",
+    "sha256": "2125a90fb4d306289d3056e95ff7af964bbbe22dde4893a0c11af12517c2a4a8",
+    "bytes": 4898
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/cl_terminal_splash.lua",
+    "sha256": "b5d604c87869bdfe1f21778f8e7d34dcd4fc81d848096f29c6cc5ba40b232273",
+    "bytes": 7380
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_admin_access.lua",
+    "sha256": "67cd6c5925b4bc049768b157454f1d92b4f8198a20aceca27843f04f4b8f8b25",
+    "bytes": 4097
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_admin_character_editor.lua",
+    "sha256": "a19c288a7124b248c13ac2e83a9bcfa2b2220fd816925edb9e1048b88b0b8645",
+    "bytes": 39064
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_admin_noclip.lua",
+    "sha256": "23cb0656f42444ac38260ee7e19525e927209d1ec268e76b2e6f64a7f88ee053",
+    "bytes": 2068
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_admin_roles.lua",
+    "sha256": "86fde8d1a5e1d89468a4176ca65d89b78d9ac73646fb61dc692337337b8248fa",
+    "bytes": 2858
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_admin_tickets.lua",
+    "sha256": "b88b8327e9457deb050b326558e633886ff72c9e2cc078b3b091294aa2d665ac",
+    "bytes": 24299
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_always_raised.lua",
+    "sha256": "66c9e74614ee682677524e2f65bfda1fc1fa11c4fae6865d15b5a190e1efe118",
+    "bytes": 8988
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_bodygrouper.lua",
+    "sha256": "bc223022fc90771a5e0e2c4a3eddbe4e8a9df90d08de2f89a10f2cd653438291",
+    "bytes": 37354
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_cami_propprotect.lua",
+    "sha256": "cda9e8ef77639b7ef66f3cc3ca62cc28d15f78ff068e1eb9c2b4c5f3f5a88f26",
+    "bytes": 9163
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_character_create.lua",
+    "sha256": "fd104a84671433c1501246496c6861513864b38d30076b8fcbb81057568e4cfb",
+    "bytes": 19117
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_character_delete.lua",
+    "sha256": "986beebdbac82fd6c0f84ea4b47bed741020e190f6f2cb6412675b9b7c63fe54",
+    "bytes": 22103
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_character_sync.lua",
+    "sha256": "5bbb1d0076cd3b1f956e5ce89579ee55a8e6cc1b4fbb7f0ce10daffa3cb171f2",
+    "bytes": 11282
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_creation_rules.lua",
+    "sha256": "a3759ea22aa821020e85d4ac4a9a93bf2e41b8a7ffeed2947aaf21c819524ead",
+    "bytes": 6213
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_flashlight.lua",
+    "sha256": "14a19ccdeb26591fefa859267df8b690c176646a3056fdf17bb694ae8410819d",
+    "bytes": 2310
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_labels.lua",
+    "sha256": "c97b02db08bb16e703358fe7c26ecaca925fdd24baee870fa190eb2bf60f38c6",
+    "bytes": 4866
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_language.lua",
+    "sha256": "23e55d385f391f8a90985497b7daf7bb9743f9ee0fc6eaa9ad1f085f02c0a47b",
+    "bytes": 1557
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_lightsaber_animation.lua",
+    "sha256": "ead1a7f47dfa6453662955aa6852dacb5b5c51a3e1babd767ea2850ef6f91b60",
+    "bytes": 4695
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_noclip_position.lua",
+    "sha256": "dcaefa6c39bad56ec2d23e759e427853027eef5f30114df2ef6fe2cee3147a4d",
+    "bytes": 4488
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_notifications.lua",
+    "sha256": "d4ff1c4995c732389bf7d517d614f3fcf0089257c95c4cf27989c5b75d58bd6f",
+    "bytes": 13481
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_plugin.lua",
+    "sha256": "9da1c6a17e097adb31cbafb0d48f86587bdb8c97c42d65ce62ba6e0e13fbe834",
+    "bytes": 1481
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_propprotect.lua",
+    "sha256": "ef75dc688ebb4156dfe00c75e79b861d02d8f4a057156ce00865e6ebcce2a8a0",
+    "bytes": 7143
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_role_loadout.lua",
+    "sha256": "ea80335fc8dfc7596b2ef756427eef8bd8d15a01bb538401e7f34fa2897347c8",
+    "bytes": 22180
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_spawn_restore.lua",
+    "sha256": "5492b7a3382b80a6e9354fa6d9f1340d773fe9e58dc66db897d8d699b72a6d11",
+    "bytes": 17783
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_whitelist_core.lua",
+    "sha256": "2ce5571db7eeff214d6385c1018bbc2a18e091f35e61b2ffaca9ca17a1a69ae7",
+    "bytes": 18255
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_whitelist_jobs.lua",
+    "sha256": "9e35d4bc3b2a6fc2e2ee53f36616c1165454d18944422c6148ce68f5c1d83d94",
+    "bytes": 20498
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sh_whitelist_menu.lua",
+    "sha256": "c8f85b1a88dda8239d294b31d725fb041748ff6efd43f2be46353111155cedf2",
+    "bytes": 44143
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sv_chatbox.lua",
+    "sha256": "e26de3c6fa5eeb9c6da93a53ac67dfb3ab37fe3b96f71711fde8cb47b9408b25",
+    "bytes": 11693
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_core/sv_respawn_guard.lua",
+    "sha256": "7d4e981977b824ea0a362cffcf5eb5d19e1b6297c9e5c175017f9cbe8568923c",
+    "bytes": 346
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_permadeath/sh_config.lua",
+    "sha256": "9f15a4151680548a105678ed80fa904109b5bddebeb7f7dd32bfc1faf85d0cbf",
+    "bytes": 3902
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_permadeath/sh_plugin.lua",
+    "sha256": "d4dc73a3c288fede10576e8e5368878f70886c3135ecc5d0e5719406cba8489a",
+    "bytes": 257
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_permadeath/sv_permadeath.lua",
+    "sha256": "10218200a471a429d3c0d1ee4f35cc76b26bbddce57a37ce0c5475843334f42a",
+    "bytes": 13185
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_ui/cl_character_menu.lua",
+    "sha256": "ced230071068c86fc9cea970f10e66e5d0b488dd42e71bf0c35bf5331eddc4f3",
+    "bytes": 36921
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_ui/cl_characterstyle.lua",
+    "sha256": "a1e68150c876fbd9fc5f9f9afe4ccc2768abbd1cce6742e5d5ebb4053b4f7505",
+    "bytes": 17891
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_ui/cl_chatbox.lua",
+    "sha256": "5d31aa7706348f942e5a257ab4e7b3c9c1e8b720be5e94c12f5a70f11729cadf",
+    "bytes": 27967
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_ui/cl_commands.lua",
+    "sha256": "7b8e125f2fc88ef01586c1968226535430523b1ad4f47cba41c23cbdffacc352",
+    "bytes": 1107
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_ui/cl_hud.lua",
+    "sha256": "4db1dc251a4275c759fdb26da063589de2193293912206bd3bd6b35b20f15c92",
+    "bytes": 20189
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_ui/cl_menus.lua",
+    "sha256": "c60179f8c197890253540659e0c0e11bbe9214a9d4d8a1ddc55a2d3c89f57000",
+    "bytes": 58244
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_ui/cl_notifications.lua",
+    "sha256": "e50e86c67b7fa5ab1e4f056ac816c106006472a39539134c7def6664fcd79e6d",
+    "bytes": 2750
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_ui/cl_runtime_compat.lua",
+    "sha256": "4f93848018c15d0e5c961e11a11f5e46be4e4d85c95cc5932af10900c5bbdc98",
+    "bytes": 3827
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_ui/cl_schema_bridge.lua",
+    "sha256": "5ba5854f53c2e47e376546d2d3c405787fcafa6a0cd268dbd72a39a9a978ff32",
+    "bytes": 7474
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_ui/cl_scoreboard.lua",
+    "sha256": "e4c8ce074283a718366cea890bf72f14c9c82e30561e2f884095f45a2a224c86",
+    "bytes": 7374
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_ui/cl_theme.lua",
+    "sha256": "651c44234c39010c40a03408c77211cf7ab4f872c010c8aae0d8c5404cf69f31",
+    "bytes": 27243
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_ui/cl_thirdperson.lua",
+    "sha256": "d3b0b3adc85d615487a7fd4bdaea38de29d52a359ef4ee4e730dd8656910c9a4",
+    "bytes": 10545
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_ui/cl_weaponselector.lua",
+    "sha256": "ef2e928a5fdc35c864b70c992705372ac077ee5ed01111e24579bf203b46a2bf",
+    "bytes": 15645
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_ui/sh_config.lua",
+    "sha256": "d7720258085a23f3cd42041c57e8482fca5c8cd141cf0643c58242c744c2e674",
+    "bytes": 2279
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_order_ui/sh_plugin.lua",
+    "sha256": "f1bb48b2661932b2710be0e5a31585bf7bc1f26fe2265913aa1185b6dbb95ebe",
+    "bytes": 3180
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_service_records/README.txt",
+    "sha256": "844b59fc36c727136bcb748eb8b0261a1cb87a50cdb5b83f504f8948dc76a70c",
+    "bytes": 534
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_service_records/cl_records.lua",
+    "sha256": "3bae57bf3c24f0330f4585d28fa703e49193f1f5a072f7377b13a6bdf0daa4d8",
+    "bytes": 1229
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_service_records/cl_ui.lua",
+    "sha256": "379b97efb79a071231fd4ef8b77e361b73e9fa4e7295d487cf35ce5ceb7b3c65",
+    "bytes": 25228
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_service_records/sh_config.lua",
+    "sha256": "0d919c2d2ef06b9b584e1f503d284f707dc3719434b413158dff038db6a4069e",
+    "bytes": 24289
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_service_records/sh_plugin.lua",
+    "sha256": "86d11b9457b61f3d7610e4b380269a0a3cf2ba3c52fc2a1ac0aaa84b98b3e024",
+    "bytes": 281
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_service_records/sv_records.lua",
+    "sha256": "09ed2410d165deb4b3382e75ee1b3e5d8cb11fa2f0478a1fe0b8a01a6c3b45b2",
+    "bytes": 744
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/imperial_service_records/sv_system.lua",
+    "sha256": "9c0394e7d121d2ef67a9b11ee46666f6c11eff424fbabff8c1dc5a74284b1083",
+    "bytes": 20248
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/salary/sh_plugin.lua",
+    "sha256": "15ab48e160974e49109c36cda877a501308fc5649e406c94554cfac5f832acf1",
+    "bytes": 550
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/salary/sv_salary.lua",
+    "sha256": "da2bb50e1a4d5c9b7b00a5b67c6a97e0cfd0a8901ea145abd50f99789b23c218",
+    "bytes": 6955
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/skills/cl_skills.lua",
+    "sha256": "e23f73606dd67eee44cf7debc8fe4d9043662c12b0ac022c126001ea288042b8",
+    "bytes": 1857
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/skills/sh_plugin.lua",
+    "sha256": "bb7797ab59569ef8c03bef34724cb71e193f0b7325af6ecbce95b637405ec183",
+    "bytes": 269
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/skills/sh_skills.lua",
+    "sha256": "a0c865beb771313f0c3b1fbbaa55afe2d409c712eff44049945caca94da73279",
+    "bytes": 8001
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/plugins/skills/sv_skills.lua",
+    "sha256": "0accc4156b2fae91a7871647f613a58d39ca682c42f0b8287765bdd493d24fff",
+    "bytes": 21288
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/sh_schema.lua",
+    "sha256": "b2c7b868f7a85a2e97bec7883c587da6c0d79d1c46802ea60a30a28b281d7291",
+    "bytes": 5357
+  },
+  {
+    "path": "gamemodes/starwarsrp/schema/sv_schema.lua",
+    "sha256": "36dd2647dfca61ae7d7a2f92fb428a098ec8addaa752b73b17d9dec899d453a1",
+    "bytes": 38
+  },
+  {
+    "path": "gamemodes/starwarsrp/starwarsrp.txt",
+    "sha256": "f5a919f54eba52ead09446ba6af40d31b51e7668bbf4486c30cd0646df3fec2f",
+    "bytes": 150
+  },
+  {
+    "path": "lua/autorun/server/workshop.lua",
+    "sha256": "8fe16f35d44cf71ed0de3ee34979e50ccf9f386564f3dc55dc243fd0eff25119",
+    "bytes": 15532
+  }
+]

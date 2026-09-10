@@ -1,0 +1,7 @@
+"AddonInfo"
+{
+    "name" "Imperial Order wiltOS Lightsaber Crafting UI"
+    "author_name" "Imperial Order"
+    "version" "1.0.0"
+    "description" "Imperial Order themed VGUI override for wiltOS lightsaber crafting."
+}

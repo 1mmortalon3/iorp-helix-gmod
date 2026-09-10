@@ -1,0 +1,6 @@
+"AddonInfo"
+{
+    "name" "Imperial Order wiltOS Compatibility"
+    "author_name" "1mmortalon3"
+    "info" "Safe load-order bridge for separately installed wiltOS/Sentinel folders."
+}
