@@ -2,7 +2,7 @@
 
 Custom Garry's Mod Helix schema and Imperial Order addons. Schema author: **1mmortalon3**.
 
-This source package was prepared from the supplied September 9, 2026 server archive. The gamemode folder remains `starwarsrp`; its displayed title remains Imperial Order. It contains the supplied patched Helix framework, including its character-column and player-table database recovery code.
+This github repository was prepared from a supplied September 9, 2026 server archive. The gamemode folder remains `starwarsrp`; its displayed title remains Imperial Order. It contains the supplied patched Helix framework, including its character-column and player-table database recovery code.
 
 ## Contents
 
