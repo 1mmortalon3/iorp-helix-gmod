@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090a0d">
+<title>Imperial Order Roleplay — Deployment</title>
+<link rel="stylesheet" href="screen.css?v=3">
+<script type="text/javascript">
+var filesNeeded = 0;
+var filesTotal = 0;
+var filesNeededKnown = false;
+var musicTracks = ['imperial-march.ogg', 'emperor-palpatine-theme.ogg', 'empire-theme.ogg', 'darth-maul-theme.ogg'];
+var musicTrackNames = ['Imperial March — Epic Version', 'Emperor Palpatine Theme — Dark Side', 'Empire Theme', 'Darth Maul Theme'];
+var currentTrack = Math.floor(Math.random() * musicTracks.length);
+var musicStarted = false;
+var musicVolume = 0.10;
+var gameMusicVolume = 1;
+var musicPlaybackToken = 0;
+var musicFailures = 0;
+var musicErrorTimer = null;
+var currentTip = 0;
+var screenOpenedAt = new Date().getTime();
+var elapsedTimer = null;
+var tipTimer = null;
+var serverDetails = {name: 'Imperial Order Roleplay', map: 'Awaiting data', mode: 'Helix', slots: '—'};
+var currentLoadingStatus = 'Establishing connection...';
+var currentLoadingFile = 'Awaiting server data...';
+var loadingTips = [
+    'Stay in character and help create a believable Imperial experience for everyone.',
+    'Use the appropriate communications channel for operational and roleplay messages.',
+    'Follow staff directions and report technical issues through the proper support channel.',
+    'Allow all required content to finish downloading before joining the operation.'
+];
+
+function byId(id) { return document.getElementById(id); }
+function setText(id, value) {
+    var element = byId(id);
+    if (element) element.textContent = value;
+}
+
+function updateProgress() {
+    var known = filesTotal > 0 && filesNeededKnown;
+    var completed = Math.max(0, Math.min(filesTotal, filesTotal - filesNeeded));
+    var percent = known ? Math.round(completed / filesTotal * 100) : 0;
+    var fill = byId('fill');
+    var bar = byId('bar');
+    var hud = byId('hud');
+    if (fill) fill.style.width = percent + '%';
+    if (hud) hud.setAttribute('data-progress', known ? 'known' : 'pending');
+    setText('percentValue', known ? percent + '%' : '—');
+    setText('filesCount', known ? completed + ' / ' + filesTotal + ' files' : 'Waiting for server content');
+    if (bar) {
+        if (known) bar.setAttribute('aria-valuenow', percent);
+        else bar.removeAttribute('aria-valuenow');
+        bar.setAttribute('aria-valuetext', known ? percent + '% of reported content files' : 'Waiting for server content');
+    }
+}
+
+function renderServerDetails() {
+    setText('servername', serverDetails.name);
+    setText('mapname', serverDetails.map);
+    setText('gamemode', serverDetails.mode);
+    setText('maxplayers', serverDetails.slots);
+    var ids = ['servername', 'mapname', 'gamemode', 'maxplayers'];
+    for (var i = 0; i < ids.length; i++) {
+        var element = byId(ids[i]);
+        if (element) element.setAttribute('title', element.textContent);
+    }
+}
+
+function GameDetails(servername, serverurl, mapname, maxplayers, steamid, gamemode, volume, language) {
+    serverDetails.name = servername || 'Imperial Order Roleplay';
+    serverDetails.map = mapname || 'Awaiting data';
+    serverDetails.mode = gamemode || 'Helix';
+    serverDetails.slots = maxplayers == null ? '—' : String(maxplayers);
+    renderServerDetails();
+    var gameVolume = parseFloat(volume);
+    if (!isNaN(gameVolume)) {
+        if (gameVolume > 1) gameVolume = gameVolume / 100;
+        gameMusicVolume = Math.max(0, Math.min(1, gameVolume));
+        applyMusicVolume();
+    }
+}
+
+function applyMusicVolume() {
+    var player = byId('loadingMusic');
+    var slider = byId('musicVolume');
+    // Keep the screen's quieter level; the game's music setting only scales it.
+    if (player) player.volume = musicVolume * gameMusicVolume;
+    if (slider) {
+        var level = Math.round(musicVolume * 100);
+        slider.value = level;
+        slider.style.background = 'linear-gradient(90deg, #e13943 ' + level + '%, rgba(255,255,255,.17) ' + level + '%)';
+        setText('volumeValue', level + '%');
+    }
+}
+
+function updateMusicUI() {
+    setText('trackName', musicTrackNames[currentTrack]);
+    setText('trackCount', (currentTrack + 1) + ' / ' + musicTracks.length);
+    setText('musicState', musicStarted ? 'NOW PLAYING' : 'READY TO PLAY');
+    var button = byId('musicControl');
+    var glyph = byId('playPauseGlyph');
+    if (button) {
+        button.setAttribute('aria-label', musicStarted ? 'Pause music' : 'Play music');
+        button.setAttribute('title', musicStarted ? 'Pause music' : 'Play music');
+    }
+    if (glyph) glyph.innerHTML = musicStarted ? '<path d="M6 4h4v16H6zM14 4h4v16h-4z"/>' : '<path d="M7 4v16l13-8z"/>';
+}
+
+function playMusic() {
+    var player = byId('loadingMusic');
+    if (!player) return;
+    // Set the level before every play attempt, including track changes.
+    applyMusicVolume();
+    var playbackToken = ++musicPlaybackToken;
+    var result = player.play();
+    musicStarted = true;
+    updateMusicUI();
+    if (result && result.catch) {
+        result.catch(function() {
+            if (playbackToken !== musicPlaybackToken) return;
+            musicStarted = false;
+            updateMusicUI();
+        });
+    }
+}
+
+function changeTrack(direction) {
+    var player = byId('loadingMusic');
+    window.clearTimeout(musicErrorTimer);
+    musicPlaybackToken++;
+    player.pause();
+    currentTrack = (currentTrack + direction + musicTracks.length) % musicTracks.length;
+    player.src = musicTracks[currentTrack];
+    applyMusicVolume();
+    player.load();
+    updateMusicUI();
+    playMusic();
+}
+
+function nextTrack() { changeTrack(1); }
+
+function musicPlaying() {
+    musicStarted = true;
+    musicFailures = 0;
+    updateMusicUI();
+}
+
+function musicPaused() {
+    musicStarted = false;
+    updateMusicUI();
+}
+
+function musicError() {
+    var player = byId('loadingMusic');
+    if (!player || !player.error || player.error.code === 1) return;
+    musicStarted = false;
+    updateMusicUI();
+    musicFailures++;
+    window.clearTimeout(musicErrorTimer);
+    // Skip missing or unsupported tracks, but stop if every track fails.
+    if (musicFailures >= musicTracks.length) {
+        setText('trackName', 'Music unavailable');
+        setText('musicState', 'PLAYBACK STOPPED');
+        return;
+    }
+    var playbackToken = musicPlaybackToken;
+    musicErrorTimer = window.setTimeout(function() {
+        if (playbackToken === musicPlaybackToken) nextTrack();
+    }, 0);
+}
+
+function toggleMusic() {
+    var player = byId('loadingMusic');
+    if (player.paused) {
+        if (player.error) {
+            musicFailures = 0;
+            player.load();
+        }
+        playMusic();
+    } else {
+        player.pause();
+        musicStarted = false;
+        updateMusicUI();
+    }
+}
+
+function updateMusicVolume(value) {
+    var level = Math.max(0, Math.min(100, parseInt(value, 10) || 0));
+    musicVolume = level / 100;
+    applyMusicVolume();
+}
+
+function rotateTip() {
+    var tip = byId('tipText');
+    if (!tip) return;
+    tip.className = 'changing';
+    window.setTimeout(function() {
+        currentTip = (currentTip + 1) % loadingTips.length;
+        setText('tipText', loadingTips[currentTip]);
+        setText('tipIndex', padNumber(currentTip + 1) + ' / ' + padNumber(loadingTips.length));
+        tip.className = '';
+    }, 260);
+}
+
+function padNumber(value) { return value < 10 ? '0' + value : String(value); }
+
+function updateElapsed() {
+    var seconds = Math.max(0, Math.floor((new Date().getTime() - screenOpenedAt) / 1000));
+    setText('elapsedTime', padNumber(Math.floor(seconds / 60)) + ':' + padNumber(seconds % 60));
+}
+
+function SetStatusChanged(status) {
+    currentLoadingStatus = status || 'Loading';
+    setText('status', currentLoadingStatus);
+}
+
+function DownloadingFile(fileName) {
+    currentLoadingFile = fileName ? 'Downloading: ' + fileName : 'Synchronizing server content...';
+    setText('filename', currentLoadingFile);
+    var filename = byId('filename');
+    if (filename) filename.setAttribute('title', currentLoadingFile);
+}
+
+function SetFilesNeeded(needed) {
+    filesNeeded = Math.max(0, parseInt(needed, 10) || 0);
+    filesNeededKnown = true;
+    updateProgress();
+}
+
+function SetFilesTotal(total) {
+    filesTotal = Math.max(0, parseInt(total, 10) || 0);
+    updateProgress();
+}
+
+window.onload = function() {
+    renderServerDetails();
+    setText('status', currentLoadingStatus);
+    setText('filename', currentLoadingFile);
+    setText('tipText', loadingTips[0]);
+    setText('tipIndex', '01 / ' + padNumber(loadingTips.length));
+    updateProgress();
+    updateElapsed();
+    window.clearInterval(elapsedTimer);
+    window.clearInterval(tipTimer);
+    elapsedTimer = window.setInterval(updateElapsed, 1000);
+    tipTimer = window.setInterval(rotateTip, 14000);
+    var musicPlayer = byId('loadingMusic');
+    musicPlayer.src = musicTracks[currentTrack];
+    applyMusicVolume();
+    musicPlayer.load();
+    var backgroundVideo = byId('bgVideo');
+    if (backgroundVideo) {
+        backgroundVideo.muted = true;
+        var videoPlayback = backgroundVideo.play();
+        if (videoPlayback && videoPlayback.catch) videoPlayback.catch(function() {});
+    }
+    updateMusicUI();
+    playMusic();
+};
+window.onpagehide = function() {
+    window.clearInterval(elapsedTimer);
+    window.clearInterval(tipTimer);
+    window.clearTimeout(musicErrorTimer);
+};
+</script>
+</head>
+<body>
+<div id="bg" aria-hidden="true"></div>
+<video id="bgVideo" autoplay muted loop playsinline preload="auto" poster="loading-poster.jpg" oncanplay="this.className='ready'" aria-hidden="true">
+    <source src="dark-lords-army.webm" type="video/webm">
+</video>
+<div id="shade" aria-hidden="true"></div>
+<div class="frameLine" aria-hidden="true"></div>
+
+<header id="masthead">
+    <div class="brand">
+        <div class="crest"><img id="topLogo" src="iorp-crest.png" alt="Imperial crest"></div>
+        <div><div class="brandName">IMPERIAL ORDER</div><div class="brandSub">ROLEPLAY</div></div>
+    </div>
+    <div class="connection">
+        <span class="connectionDot" aria-hidden="true"></span>
+        <span class="connectionLabel">IMPERIAL NETWORK</span>
+        <div class="elapsed"><span class="elapsedLabel">ELAPSED</span><span id="elapsedTime">00:00</span></div>
+    </div>
+</header>
+
+<section id="hero" aria-label="Welcome to Imperial Order Roleplay">
+    <div class="eyebrow">STAR WARS ROLEPLAY</div>
+    <h1><span>THE EMPIRE</span><span>AWAITS.</span></h1>
+    <p class="heroSubtitle">LOYALTY <b>·</b> ORDER <b>·</b> VICTORY</p>
+    <aside id="briefing" aria-label="Roleplay tips">
+        <div class="tipHeading"><span class="panelKicker">IMPERIAL DIRECTIVE</span><span id="tipIndex">01 / 04</span></div>
+        <p id="tipText">Stay in character and help create a believable Imperial experience for everyone.</p>
+    </aside>
+</section>
+
+<main id="deploymentDock" aria-label="Server loading details">
+    <section id="hud" class="panel" data-progress="pending" aria-label="Deployment status">
+        <div class="hudHeading">
+            <div class="statusInfo"><div class="panelKicker">DEPLOYMENT STATUS</div><div id="status" role="status">Establishing connection...</div></div>
+            <div class="percent"><span id="percentValue">—</span><span class="percentLabel">CONTENT</span></div>
+        </div>
+        <div id="filename" title="">Awaiting server data...</div>
+        <div id="bar" role="progressbar" aria-label="Content download progress" aria-valuemin="0" aria-valuemax="100" aria-valuetext="Waiting for server content"><div id="fill"></div></div>
+        <div class="progressCaption"><span id="filesCount">Waiting for server content</span><span class="keepOpen">Preparing your deployment</span></div>
+        <div id="meta">
+            <div class="metaitem"><span class="metaLabel">SERVER</span><span id="servername" class="metaValue">Imperial Order Roleplay</span></div>
+            <div class="metaitem"><span class="metaLabel">MAP</span><span id="mapname" class="metaValue">Awaiting data</span></div>
+            <div class="metaitem"><span class="metaLabel">GAMEMODE</span><span id="gamemode" class="metaValue">Helix</span></div>
+            <div class="metaitem"><span class="metaLabel">SLOTS</span><span id="maxplayers" class="metaValue">—</span></div>
+        </div>
+    </section>
+
+    <section id="musicPanel" class="panel" aria-label="Loading music controls">
+        <div class="musicHeading"><span class="panelKicker">AUDIO CHANNEL</span><span id="trackCount">1 / 4</span></div>
+        <div class="musicTrack">
+            <div class="musicIcon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18V5l11-2v13M9 8l11-2"/><ellipse cx="6" cy="18.5" rx="3" ry="2.5"/><ellipse cx="17" cy="16.5" rx="3" ry="2.5"/></svg></div>
+            <div class="musicInfo"><div id="musicState">READY TO PLAY</div><div id="trackName">Imperial March — Epic Version</div></div>
+        </div>
+        <div class="musicBottom">
+            <div class="musicActions">
+                <button class="musicButton" type="button" onclick="changeTrack(-1)" aria-label="Previous track" title="Previous track"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5 4h2v16H5zM19 4v16L8 12z"/></svg></button>
+                <button id="musicControl" class="musicButton" type="button" onclick="toggleMusic()" aria-label="Play music" title="Play music"><svg id="playPauseGlyph" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg></button>
+                <button class="musicButton" type="button" onclick="changeTrack(1)" aria-label="Next track" title="Next track"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17 4h2v16h-2zM5 4l11 8-11 8z"/></svg></button>
+            </div>
+            <div class="volumeRow">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4zM17 8a6 6 0 010 8M20 5a10 10 0 010 14"/></svg>
+                <label class="srOnly" for="musicVolume">Music volume</label>
+                <input id="musicVolume" type="range" min="0" max="100" value="10" oninput="updateMusicVolume(this.value)" onchange="updateMusicVolume(this.value)" title="Loading music volume, scaled by your in-game music setting">
+                <span id="volumeValue">10%</span>
+            </div>
+        </div>
+    </section>
+</main>
+<audio id="loadingMusic" preload="none" onended="nextTrack()" onplaying="musicPlaying()" onpause="musicPaused()" onerror="musicError()"></audio>
+</body>
+</html>
